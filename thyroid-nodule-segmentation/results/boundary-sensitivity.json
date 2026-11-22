@@ -1,0 +1,29 @@
+{
+  "n": 576,
+  "primary_both_local": 521,
+  "both_decoders_both_local": 517,
+  "primary_plus": 67,
+  "primary_minus": 70,
+  "robust_plus": 15,
+  "robust_minus": 19,
+  "positive_sign_only_or_better": 57,
+  "negative_sign_only_or_better": 56,
+  "conditions": {
+    "above127": {
+      "region_gray": 0.8149559391409125,
+      "region_edge": 0.8167369819954684,
+      "delta_region": 0.001781042854555984,
+      "surface_delta_at_1px": 0.007259666235783906,
+      "surface_delta_at_2px": 0.004963820695636393,
+      "surface_delta_at_3px": 0.002633119177185837
+    },
+    "only255": {
+      "region_gray": 0.78159251378812,
+      "region_edge": 0.783499373592424,
+      "delta_region": 0.0019068598043041013,
+      "surface_delta_at_1px": 0.0038495661317095734,
+      "surface_delta_at_2px": 0.0048043812641295515,
+      "surface_delta_at_3px": 0.004879049337845802
+    }
+  }
+}

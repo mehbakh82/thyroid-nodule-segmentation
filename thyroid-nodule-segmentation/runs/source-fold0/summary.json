@@ -1,0 +1,350 @@
+{
+  "run": {
+    "device": "mps",
+    "torch": "2.9.1",
+    "opencv": "4.12.0",
+    "python": "3.12.16",
+    "manifest": "1341b4d14bc7da77572aa5e177001be829a7cfe8c4dca8220456fc9c6c083221",
+    "weights": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+    "train": 2303,
+    "val": 576,
+    "model": "d0a3146603c6838e2bb6c5b305484464b4e2c49963c1d431b590a70c4593e457",
+    "trainer": "df1756973e55ad8e154b71f34b8299d17ff49d3260241e2cb45934dc2b873b76",
+    "epochs": 12,
+    "batch": 8,
+    "seed": 241121
+  },
+  "receipts": {
+    "gray": {
+      "run_key": "b6d14b3918f38d30df85a7956fa3f10c5fb43d3311f4ea3ded1499ee294d47b8",
+      "initial_sha256": "cb94cd02af09afeb0b4b19f0041a20f0f6e99dfcb6522631c7ba556372fbe2d0",
+      "arm": "gray",
+      "parameters": 22564369,
+      "epochs": 12,
+      "predictions_sha256": "e352afd8970ed3a19266f24afa75a2a7f9592416bc62cc2dfa8b52082370fcbe",
+      "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364"
+    },
+    "edge": {
+      "run_key": "b6d14b3918f38d30df85a7956fa3f10c5fb43d3311f4ea3ded1499ee294d47b8",
+      "initial_sha256": "cb94cd02af09afeb0b4b19f0041a20f0f6e99dfcb6522631c7ba556372fbe2d0",
+      "arm": "edge",
+      "parameters": 22564369,
+      "epochs": 12,
+      "predictions_sha256": "6edaaa8758e173b58d1c43ab1505ea2b9170dba61755e182aa3dcbad7f3f957c",
+      "checkpoint_sha256": "f281706ad8bcf38cd14a81f44c9255ce0c04648f22516af8ad010a0da6864e29"
+    }
+  },
+  "overall": {
+    "n": 576,
+    "gray": {
+      "dice": 0.8149559391409125,
+      "iou": 0.7250855845186233,
+      "surface_dice": 0.4874560022951708,
+      "hd95": 18.32651788192165,
+      "fp_per_target": 0.2522664028295756,
+      "fn_per_target": 0.16906938780247247,
+      "miss": 9,
+      "empty": 2
+    },
+    "edge": {
+      "dice": 0.8167369819954684,
+      "iou": 0.726291266406321,
+      "surface_dice": 0.4924198229908071,
+      "hd95": 18.761124605530064,
+      "fp_per_target": 0.26467502004707294,
+      "fn_per_target": 0.16930009422160117,
+      "miss": 8,
+      "empty": 2
+    },
+    "mean_delta": 0.001781042854555984,
+    "median_delta": 1.4550163223159274e-05,
+    "wins": 288,
+    "losses": 282,
+    "ties": 6,
+    "conditional_image_interval": [
+      -0.006569896980829355,
+      0.010690049872128784
+    ],
+    "rescue": 2,
+    "harm": 1,
+    "recovered_any": 3,
+    "lost_any": 2,
+    "both_miss": 6,
+    "extra_foreground_worse": 181
+  },
+  "groups": {
+    "small": {
+      "n": 144,
+      "gray": {
+        "dice": 0.7793032098569578,
+        "iou": 0.6786133031367202,
+        "surface_dice": 0.6393084899565928,
+        "hd95": 12.255035236968194,
+        "fp_per_target": 0.5359392421100391,
+        "fn_per_target": 0.1469673785495126,
+        "miss": 3,
+        "empty": 0
+      },
+      "edge": {
+        "dice": 0.7865734819815207,
+        "iou": 0.6848863717187447,
+        "surface_dice": 0.6458050277665086,
+        "hd95": 12.151478182310367,
+        "fp_per_target": 0.6004159964452883,
+        "fn_per_target": 0.1392458156635702,
+        "miss": 2,
+        "empty": 0
+      },
+      "mean_delta": 0.007270272124562858,
+      "median_delta": 0.0,
+      "wins": 71,
+      "losses": 71,
+      "ties": 2,
+      "conditional_image_interval": [
+        -0.011088229847083278,
+        0.027356258513813125
+      ],
+      "rescue": 1,
+      "harm": 0,
+      "recovered_any": 1,
+      "lost_any": 0,
+      "both_miss": 2,
+      "extra_foreground_worse": 56
+    },
+    "other_size": {
+      "n": 432,
+      "gray": {
+        "dice": 0.826840182235564,
+        "iou": 0.7405763449792576,
+        "surface_dice": 0.4368385064080299,
+        "hd95": 20.350345430239468,
+        "fp_per_target": 0.1577087897360878,
+        "fn_per_target": 0.17643672422012577,
+        "miss": 6,
+        "empty": 2
+      },
+      "edge": {
+        "dice": 0.8267914820001175,
+        "iou": 0.7400928979688466,
+        "surface_dice": 0.44129142139890665,
+        "hd95": 20.964340079936626,
+        "fp_per_target": 0.15276136124766782,
+        "fn_per_target": 0.17931818707427816,
+        "miss": 6,
+        "empty": 2
+      },
+      "mean_delta": -4.8700235446307156e-05,
+      "median_delta": 0.00034498829390583463,
+      "wins": 217,
+      "losses": 211,
+      "ties": 4,
+      "conditional_image_interval": [
+        -0.008843784298466068,
+        0.0091472525315293
+      ],
+      "rescue": 1,
+      "harm": 1,
+      "recovered_any": 2,
+      "lost_any": 2,
+      "both_miss": 4,
+      "extra_foreground_worse": 125
+    },
+    "weak": {
+      "n": 148,
+      "gray": {
+        "dice": 0.8370140093648791,
+        "iou": 0.7466834658491633,
+        "surface_dice": 0.5019525094281747,
+        "hd95": 15.771857059136703,
+        "fp_per_target": 0.1969203610363958,
+        "fn_per_target": 0.16531586920215693,
+        "miss": 0,
+        "empty": 0
+      },
+      "edge": {
+        "dice": 0.833178964804391,
+        "iou": 0.7412507843131111,
+        "surface_dice": 0.4934058570645299,
+        "hd95": 16.807517151245943,
+        "fp_per_target": 0.21261490330824923,
+        "fn_per_target": 0.17481455313344413,
+        "miss": 0,
+        "empty": 0
+      },
+      "mean_delta": -0.0038350445604880584,
+      "median_delta": -0.0017683513864718003,
+      "wins": 67,
+      "losses": 81,
+      "ties": 0,
+      "conditional_image_interval": [
+        -0.01617605513829299,
+        0.007901605188225134
+      ],
+      "rescue": 0,
+      "harm": 0,
+      "recovered_any": 0,
+      "lost_any": 0,
+      "both_miss": 0,
+      "extra_foreground_worse": 45
+    },
+    "other_margin": {
+      "n": 428,
+      "gray": {
+        "dice": 0.8073283821475781,
+        "iou": 0.7176171582641374,
+        "surface_dice": 0.48244319141740305,
+        "hd95": 19.209905269239812,
+        "fp_per_target": 0.271404753730021,
+        "fn_per_target": 0.17036733348669372,
+        "miss": 9,
+        "empty": 2
+      },
+      "edge": {
+        "dice": 0.8110514365381774,
+        "iou": 0.7211183489993002,
+        "surface_dice": 0.49207885793727685,
+        "hd95": 19.436671108413353,
+        "fp_per_target": 0.2826771164894699,
+        "fn_per_target": 0.1673932252520854,
+        "miss": 8,
+        "empty": 2
+      },
+      "mean_delta": 0.00372305439059925,
+      "median_delta": 0.001315605706897982,
+      "wins": 221,
+      "losses": 201,
+      "ties": 6,
+      "conditional_image_interval": [
+        -0.006666217558956976,
+        0.01438562217316536
+      ],
+      "rescue": 2,
+      "harm": 1,
+      "recovered_any": 3,
+      "lost_any": 2,
+      "both_miss": 6,
+      "extra_foreground_worse": 136
+    },
+    "marked_review": {
+      "n": 10,
+      "gray": {
+        "dice": 0.8497541822763376,
+        "iou": 0.7491232420351854,
+        "surface_dice": 0.5051122518574658,
+        "hd95": 11.85247835111144,
+        "fp_per_target": 0.1630391830487705,
+        "fn_per_target": 0.14666926488829193,
+        "miss": 0,
+        "empty": 0
+      },
+      "edge": {
+        "dice": 0.806292096382529,
+        "iou": 0.6991833036314454,
+        "surface_dice": 0.49104795575245985,
+        "hd95": 20.00208286752476,
+        "fp_per_target": 0.4321797538099599,
+        "fn_per_target": 0.10750942475258016,
+        "miss": 0,
+        "empty": 0
+      },
+      "mean_delta": -0.04346208589380867,
+      "median_delta": -0.006229611282601355,
+      "wins": 4,
+      "losses": 6,
+      "ties": 0,
+      "conditional_image_interval": [
+        -0.11182308011979043,
+        0.011795618934001776
+      ],
+      "rescue": 0,
+      "harm": 0,
+      "recovered_any": 0,
+      "lost_any": 0,
+      "both_miss": 0,
+      "extra_foreground_worse": 6
+    },
+    "no_obvious_marks_review": {
+      "n": 20,
+      "gray": {
+        "dice": 0.872942394785776,
+        "iou": 0.7872456394953599,
+        "surface_dice": 0.5343907457130571,
+        "hd95": 16.219032243496365,
+        "fp_per_target": 0.23249483536603824,
+        "fn_per_target": 0.09726569735034714,
+        "miss": 0,
+        "empty": 0
+      },
+      "edge": {
+        "dice": 0.8690084104921914,
+        "iou": 0.7877752556438471,
+        "surface_dice": 0.5364907296635029,
+        "hd95": 14.40448885105673,
+        "fp_per_target": 0.33201308574913746,
+        "fn_per_target": 0.10086287062442152,
+        "miss": 0,
+        "empty": 0
+      },
+      "mean_delta": -0.003933984293584714,
+      "median_delta": -8.64635923710777e-05,
+      "wins": 10,
+      "losses": 10,
+      "ties": 0,
+      "conditional_image_interval": [
+        -0.020827574185044866,
+        0.00917150432957072
+      ],
+      "rescue": 0,
+      "harm": 0,
+      "recovered_any": 0,
+      "lost_any": 0,
+      "both_miss": 0,
+      "extra_foreground_worse": 5
+    },
+    "uncertain_review": {
+      "n": 6,
+      "gray": {
+        "dice": 0.8679224630332572,
+        "iou": 0.772441196555743,
+        "surface_dice": 0.3569588774387791,
+        "hd95": 20.684447358924334,
+        "fp_per_target": 0.13316161311407537,
+        "fn_per_target": 0.13196089051266385,
+        "miss": 0,
+        "empty": 0
+      },
+      "edge": {
+        "dice": 0.8093003324635676,
+        "iou": 0.6930423116251752,
+        "surface_dice": 0.30397251052691515,
+        "hd95": 26.134335088183633,
+        "fp_per_target": 0.20584307209180452,
+        "fn_per_target": 0.17909307141975708,
+        "miss": 0,
+        "empty": 0
+      },
+      "mean_delta": -0.05862213056968966,
+      "median_delta": -0.021068304859108156,
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "conditional_image_interval": [
+        -0.14285925007237996,
+        -0.0004461060786160413
+      ],
+      "rescue": 0,
+      "harm": 0,
+      "recovered_any": 0,
+      "lost_any": 0,
+      "both_miss": 0,
+      "extra_foreground_worse": 2
+    }
+  },
+  "bounds": {
+    "area_q25": 0.03335395103967513,
+    "margin_q25": -0.0034023644402623177
+  },
+  "margin_proxy_missing": 0,
+  "paired_sha256": "71a2fa43be71eeceaf55c55e3fd40609582492309da8cad3cc628606b87683ea",
+  "marker_review_sha256": "feb01eea7f4f660dfe27a515fca8e94c1d40531297a94a3d7b03af91a71d4095"
+}

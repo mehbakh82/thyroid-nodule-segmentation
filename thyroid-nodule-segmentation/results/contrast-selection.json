@@ -1,0 +1,56 @@
+{
+  "images": 576,
+  "features": [
+    "median intensity",
+    "90th minus 10th percentile intensity",
+    "fraction at or below .02",
+    "median absolute Gaussian residual",
+    "90th percentile gradient magnitude"
+  ],
+  "folds": [
+    116,
+    115,
+    115,
+    115,
+    115
+  ],
+  "ridge_alpha": 100,
+  "apply_contrast": 353,
+  "selected_higher": 147,
+  "gray": 0.8149559391409125,
+  "contrast": 0.815647410089127,
+  "selected": 0.8143737936088142,
+  "oracle": 0.835720730939754,
+  "oracle_gain_vs_gray_points": 2.0764791798841675,
+  "selected_vs_gray": {
+    "mean_points": -0.05821455320981888,
+    "conditional_interval_points": [
+      -0.6046847698373328,
+      0.562024971738895
+    ]
+  },
+  "selected_vs_contrast": {
+    "mean_points": -0.1273616480312859,
+    "conditional_interval_points": [
+      -0.7355916300874266,
+      0.46561508150125996
+    ]
+  },
+  "selected_vs_other_fold_mean_choice": {
+    "mean_points": 0.04590462456936387,
+    "conditional_interval_points": [
+      -0.5539841048109969,
+      0.7236299024860422
+    ]
+  },
+  "at_least_five_points_better": 53,
+  "at_least_five_points_worse": 54,
+  "by_fold_gain_vs_gray_points": [
+    0.6351203307551097,
+    -0.09608004393448255,
+    0.2725806685966388,
+    -0.6955166895887336,
+    -0.41320603086862606
+  ],
+  "input_sha256": "7721d204accab03ab96040241491b10a3c196a1291cd873425ecf3e2017bd955"
+}

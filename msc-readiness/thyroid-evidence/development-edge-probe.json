@@ -1,0 +1,13 @@
+{
+  "split": "trainval only",
+  "eligible_images": 2879,
+  "exclusions": {},
+  "boundary_median_exceeds_both_control_medians": 1412,
+  "image_quantiles_fraction_boundary_points_stronger_than_both_controls": [
+    0.2554691161308464,
+    0.3664,
+    0.5275748822854429
+  ],
+  "protocol": "long side 256, isotropic resize, sigma 1 gradient, parallel samples at plus/minus 3 pixels",
+  "mask": "per-mask half-maximum"
+}

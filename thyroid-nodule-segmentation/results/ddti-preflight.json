@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "09044da4ca9dc87cddcf8ed94117b7f422acd40b28b5b5b400a883702521fa53",
+  "paired_rows": 637,
+  "unique_images": 630,
+  "unique_pairs": 634,
+  "single_reference_images": 626,
+  "unique_reference_counts": {
+    "2": 4,
+    "1": 626
+  },
+  "manifest_sha256": "eabf6a959ee28c4a9912fc46422e4ca634303fe712fb8906d7d68a4add4fd638"
+}

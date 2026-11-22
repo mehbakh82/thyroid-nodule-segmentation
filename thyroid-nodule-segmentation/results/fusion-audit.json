@@ -1,0 +1,133 @@
+{
+  "images": 576,
+  "device": "cpu",
+  "methods": {
+    "gray": {
+      "dice": 0.8149557022604991,
+      "surface_dice": 0.4874560022951708,
+      "hd95": 18.32651788192165,
+      "misses": 9
+    },
+    "contrast": {
+      "dice": 0.8156474513793704,
+      "surface_dice": 0.480988812821609,
+      "hd95": 19.51383921766544,
+      "misses": 8
+    },
+    "gray_flip_average": {
+      "dice": 0.8220884130294905,
+      "surface_dice": 0.4937586652664745,
+      "hd95": 17.799086476741902,
+      "misses": 7
+    },
+    "gray_contrast_average": {
+      "dice": 0.8200471178431763,
+      "surface_dice": 0.4912243815152439,
+      "hd95": 17.521637026632252,
+      "misses": 7
+    },
+    "gray_closed": {
+      "dice": 0.8149556132650088,
+      "surface_dice": 0.4874604824904431,
+      "hd95": 18.324871145686927,
+      "misses": 9
+    },
+    "fusion_closed": {
+      "dice": 0.820057329772856,
+      "surface_dice": 0.4912246766591138,
+      "hd95": 17.507586028738256,
+      "misses": 7
+    }
+  },
+  "comparisons": {
+    "contrast minus gray": {
+      "mean_points": 0.06917491188712713,
+      "interval_points": [
+        -0.7472138351155645,
+        0.9489168433006909
+      ],
+      "improved": 262,
+      "worsened": 307,
+      "tied": 7
+    },
+    "gray_flip_average minus gray": {
+      "mean_points": 0.713271076899143,
+      "interval_points": [
+        0.37452091984701613,
+        1.0979800253559708
+      ],
+      "improved": 322,
+      "worsened": 246,
+      "tied": 8
+    },
+    "gray_contrast_average minus gray": {
+      "mean_points": 0.5091415582677157,
+      "interval_points": [
+        0.03952592246405969,
+        1.0250554426426624
+      ],
+      "improved": 304,
+      "worsened": 264,
+      "tied": 8
+    },
+    "gray_contrast_average minus contrast": {
+      "mean_points": 0.4399666463805887,
+      "interval_points": [
+        -0.028797383748560328,
+        0.8816425271106539
+      ],
+      "improved": 339,
+      "worsened": 230,
+      "tied": 7
+    },
+    "gray_contrast_average minus gray_flip_average": {
+      "mean_points": -0.20412951863142714,
+      "interval_points": [
+        -0.6116002549003928,
+        0.18653936660294226
+      ],
+      "improved": 286,
+      "worsened": 282,
+      "tied": 8
+    },
+    "gray_closed minus gray": {
+      "mean_points": -8.899549035459194e-06,
+      "interval_points": [
+        -0.0011008084841887542,
+        0.0011090573075840467
+      ],
+      "improved": 70,
+      "worsened": 74,
+      "tied": 432
+    },
+    "fusion_closed minus gray_contrast_average": {
+      "mean_points": 0.0010211929679600218,
+      "interval_points": [
+        -0.0002988526544976189,
+        0.002676369904692971
+      ],
+      "improved": 63,
+      "worsened": 53,
+      "tied": 460
+    }
+  },
+  "cpu_vs_mps_discrepancy_note": "Per arm: images with any difference, total different pixels, maximum absolute image Dice difference inside unpadded field.",
+  "cpu_vs_mps": {
+    "gray": [
+      1,
+      1,
+      0.00013644311803839848
+    ],
+    "contrast": [
+      1,
+      1,
+      2.3783180163716722e-05
+    ]
+  },
+  "checkpoints": {
+    "gray": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364",
+    "contrast": "417c03c05ebf0043570f731c78d919515d0a8a1d52726395901e9223edd64c3f"
+  },
+  "per_image_sha256": "e36b800c4d8e0ef39eeeccf19942a63c2259bd04e30ea03a64285d66a2a37b1e",
+  "script_sha256": "23991ec93e2fca2aadafee5c06930186ef18b7021ef2bf518490c795bb52fd73"
+}

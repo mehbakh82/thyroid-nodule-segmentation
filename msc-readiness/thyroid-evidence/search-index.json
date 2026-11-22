@@ -1,0 +1,1606 @@
+{
+  "as_of": "2026-11-21",
+  "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "queries": {
+    "target": {
+      "query": "(TITLE_ABS:thyroid AND TITLE_ABS:nodul* AND (TITLE_ABS:ultrasound OR TITLE_ABS:ultrasonograph*) AND (TITLE:segment* OR TITLE:delineat* OR TITLE:contour*)) AND FIRST_PDATE:[1900-01-01 TO 2026-11-21]",
+      "hits": 96,
+      "retrieved": 96
+    },
+    "benchmarks": {
+      "query": "((TITLE_ABS:TN3K OR TITLE_ABS:DDTI OR TITLE_ABS:ThyroidXL OR TITLE_ABS:TN5000 OR TITLE_ABS:\"TN-SCUI\") AND (TITLE_ABS:thyroid OR TITLE_ABS:nodul*)) AND FIRST_PDATE:[1900-01-01 TO 2026-11-21]",
+      "hits": 65,
+      "retrieved": 65
+    },
+    "transport": {
+      "query": "(TITLE_ABS:thyroid AND TITLE_ABS:nodul* AND TITLE_ABS:segment* AND (TITLE_ABS:\"external validation\" OR TITLE_ABS:\"cross-dataset\" OR TITLE_ABS:\"domain generalization\" OR TITLE_ABS:caliper* OR TITLE_ABS:marker OR TITLE_ABS:interobserver)) AND FIRST_PDATE:[1900-01-01 TO 2026-11-21]",
+      "hits": 20,
+      "retrieved": 20
+    },
+    "resources": {
+      "query": "(TITLE:thyroid AND (TITLE:ultrasound OR TITLE:ultrasonograph*) AND (TITLE:dataset OR TITLE:database OR TITLE:benchmark OR TITLE:\"data set\")) AND FIRST_PDATE:[1900-01-01 TO 2026-11-21]",
+      "hits": 10,
+      "retrieved": 10
+    }
+  },
+  "unique": 154,
+  "records": [
+    {
+      "title": "Variable background active contour model for computer-aided delineation of nodules in thyroid ultrasound images.",
+      "doi": "10.1109/titb.2006.890018",
+      "pmid": "17912970",
+      "year": "2007",
+      "journal": "IEEE Trans Inf Technol Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Active contours guided by echogenicity and texture for delineation of thyroid nodules in ultrasound images.",
+      "doi": "10.1109/titb.2008.2007192",
+      "pmid": "19193513",
+      "year": "2009",
+      "journal": "IEEE Trans Inf Technol Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Segmentation of ultrasound images of thyroid nodule for assisting fine needle aspiration cytology.",
+      "doi": "10.1186/2047-2501-1-5",
+      "pmid": "25825657",
+      "year": "2013",
+      "journal": "Health Inf Sci Syst",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Ultrasound image-based thyroid nodule automatic segmentation using convolutional neural networks.",
+      "doi": "10.1007/s11548-017-1649-7",
+      "pmid": "28762196",
+      "year": "2017",
+      "journal": "Int J Comput Assist Radiol Surg",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A Hybrid Multilayer Filtering Approach for Thyroid Nodule Segmentation on Ultrasound Images.",
+      "doi": "10.1002/jum.14731",
+      "pmid": "30171626",
+      "year": "2019",
+      "journal": "J Ultrasound Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Segmentation and Diagnosis of Papillary Thyroid Carcinomas Based on Generalized Clustering Algorithm in Ultrasound Elastography.",
+      "doi": "10.1007/s10916-019-1462-7",
+      "pmid": "31811492",
+      "year": "2019",
+      "journal": "J Med Syst",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A review of thyroid gland segmentation and thyroid nodule segmentation methods for medical ultrasound images.",
+      "doi": "10.1016/j.cmpb.2020.105329",
+      "pmid": "31955006",
+      "year": "2020",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Automated Segmentation of Thyroid Nodule, Gland, and Cystic Components From Ultrasound Images Using Deep Learning.",
+      "doi": "10.1109/access.2020.2982390",
+      "pmid": "32995106",
+      "year": "2020",
+      "journal": "IEEE Access",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Cascade marker removal algorithm for thyroid ultrasound images.",
+      "doi": "10.1007/s11517-020-02216-7",
+      "pmid": "32840765",
+      "year": "2020",
+      "journal": "Med Biol Eng Comput",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Deep Learning-Based Segmentation of Nodules in Thyroid Ultrasound: Improving Performance by Utilizing Markers Present in the Images.",
+      "doi": "10.1016/j.ultrasmedbio.2019.10.003",
+      "pmid": "31699547",
+      "year": "2020",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target",
+        "transport"
+      ]
+    },
+    {
+      "title": "Intuitionistic based segmentation of thyroid nodules in ultrasound images.",
+      "doi": "10.1016/j.compbiomed.2020.103776",
+      "pmid": "32568671",
+      "year": "2020",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Multi-Reader Multi-Case Study for Performance Evaluation of High-Risk Thyroid Ultrasound with Computer-Aided Detection.",
+      "doi": "10.3390/cancers12020373",
+      "pmid": "32041119",
+      "year": "2020",
+      "journal": "Cancers (Basel)",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Automatic Deep Learning Semantic Segmentation of Ultrasound Thyroid Cineclips Using Recurrent Fully Convolutional Networks.",
+      "doi": "10.1109/access.2020.3045906",
+      "pmid": "33747681",
+      "year": "2021",
+      "journal": "IEEE Access",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Image Segmentation of Thyroid Nodule and Capsule for Diagnosing Central Compartment Lymph Node Metastasis.",
+      "doi": "10.1109/embc46164.2021.9630240",
+      "pmid": "34891822",
+      "year": "2021",
+      "journal": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Integrating User-Input into Deep Convolutional Neural Networks for Thyroid Nodule Segmentation.",
+      "doi": "10.1109/embc46164.2021.9629959",
+      "pmid": "34891794",
+      "year": "2021",
+      "journal": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Joint Detection of Tap and CEA Based on Deep Learning Medical Image Segmentation: Risk Prediction of Thyroid Cancer.",
+      "doi": "10.1155/2021/5920035",
+      "pmid": "34158913",
+      "year": "2021",
+      "journal": "J Healthc Eng",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Thyroid Nodule Segmentation and Classification Using Deep Convolutional Neural Network and Rule-based Classifiers.",
+      "doi": "10.1109/embc46164.2021.9629557",
+      "pmid": "34891902",
+      "year": "2021",
+      "journal": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A Super-resolution Guided Network for Improving Automated Thyroid Nodule Segmentation.",
+      "doi": "10.1016/j.cmpb.2022.107186",
+      "pmid": "36334526",
+      "year": "2022",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Adaptive soft erasure with edge self-attention for weakly supervised semantic segmentation: Thyroid ultrasound image case study.",
+      "doi": "10.1016/j.compbiomed.2022.105347",
+      "pmid": "35276549",
+      "year": "2022",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "GAN-Guided Deformable Attention Network for Identifying Thyroid Nodules in Ultrasound Images.",
+      "doi": "10.1109/jbhi.2022.3153559",
+      "pmid": "35196250",
+      "year": "2022",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Local and Context-Attention Adaptive LCA-Net for Thyroid Nodule Segmentation in Ultrasound Images.",
+      "doi": "10.3390/s22165984",
+      "pmid": "36015742",
+      "year": "2022",
+      "journal": "Sensors (Basel)",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "N-Net: A novel dense fully convolutional neural network for thyroid nodule segmentation.",
+      "doi": "10.3389/fnins.2022.872601",
+      "pmid": "36117632",
+      "year": "2022",
+      "journal": "Front Neurosci",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "TNSNet: Thyroid nodule segmentation in ultrasound imaging using soft shape supervision.",
+      "doi": "10.1016/j.cmpb.2021.106600",
+      "pmid": "34971855",
+      "year": "2022",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Thyroid Ultrasound-Image Dataset.",
+      "doi": "10.3233/shti220482",
+      "pmid": "35612104",
+      "year": "2022",
+      "journal": "Stud Health Technol Inform",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "Thyroid nodule segmentation and classification in ultrasound images through intra- and inter-task consistent learning.",
+      "doi": "10.1016/j.media.2022.102443",
+      "pmid": "35537340",
+      "year": "2022",
+      "journal": "Med Image Anal",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Transfer learning for automatic joint segmentation of thyroid and breast lesions from ultrasound images.",
+      "doi": "10.1007/s11548-021-02505-y",
+      "pmid": "34881409",
+      "year": "2022",
+      "journal": "Int J Comput Assist Radiol Surg",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A Multiscale Attentional Unet Model for Automatic Segmentation in Medical Ultrasound Images.",
+      "doi": "10.1177/01617346231169789",
+      "pmid": "37114669",
+      "year": "2023",
+      "journal": "Ultrason Imaging",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A Multitask Approach for Automated Detection and Segmentation of Thyroid Nodules in Ultrasound Images",
+      "doi": "10.1101/2023.01.31.23285223",
+      "pmid": null,
+      "year": "2023",
+      "journal": null,
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A Novel Model of Thyroid Nodule Segmentation for Ultrasound Images.",
+      "doi": "10.1016/j.ultrasmedbio.2022.09.017",
+      "pmid": "36328887",
+      "year": "2023",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A novel wavelet-transform-based convolution classification network for cervical lymph node metastasis of papillary thyroid carcinoma in ultrasound images.",
+      "doi": "10.1016/j.compmedimag.2023.102298",
+      "pmid": "37769402",
+      "year": "2023",
+      "journal": "Comput Med Imaging Graph",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Assessment of encoder-decoder-based segmentation models for thyroid ultrasound images.",
+      "doi": "10.1007/s11517-023-02849-4",
+      "pmid": "37353695",
+      "year": "2023",
+      "journal": "Med Biol Eng Comput",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "BPAT-UNet: Boundary preserving assembled transformer UNet for ultrasound thyroid nodule segmentation.",
+      "doi": "10.1016/j.cmpb.2023.107614",
+      "pmid": "37244233",
+      "year": "2023",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "DPAM-PSPNet: ultrasonic image segmentation of thyroid nodule based on dual-path attention mechanism.",
+      "doi": "10.1088/1361-6560/ace6f1",
+      "pmid": "37437581",
+      "year": "2023",
+      "journal": "Phys Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Deep learning for classification of thyroid nodules on ultrasound: validation on an independent dataset.",
+      "doi": "10.1016/j.clinimag.2023.04.010",
+      "pmid": "37116263",
+      "year": "2023",
+      "journal": "Clin Imaging",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "Dynamic Perfusion Representation and Aggregation Network for Nodule Segmentation Using Contrast-Enhanced US.",
+      "doi": "10.1109/jbhi.2023.3270307",
+      "pmid": "37097791",
+      "year": "2023",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "FBN: Weakly Supervised Thyroid Nodule Segmentation Optimized by Online Foreground and Background.",
+      "doi": "10.1016/j.ultrasmedbio.2023.04.009",
+      "pmid": "37308370",
+      "year": "2023",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "FDE-net: Frequency-domain enhancement network using dynamic-scale dilated convolution for thyroid nodule segmentation.",
+      "doi": "10.1016/j.compbiomed.2022.106514",
+      "pmid": "36628913",
+      "year": "2023",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Improving GAN Learning Dynamics for Thyroid Nodule Segmentation.",
+      "doi": "10.1016/j.ultrasmedbio.2022.09.010",
+      "pmid": "36424307",
+      "year": "2023",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Joint Segmentation and Differential Diagnosis of Thyroid Nodule in Contrast-Enhanced Ultrasound Images.",
+      "doi": "10.1109/tbme.2023.3262842",
+      "pmid": "37027278",
+      "year": "2023",
+      "journal": "IEEE Trans Biomed Eng",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Learnability of Thyroid Nodule Assessment on Ultrasonography: Using a Big Data Set.",
+      "doi": "10.1016/j.ultrasmedbio.2023.08.026",
+      "pmid": "37758528",
+      "year": "2023",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "Objective assessment of segmentation models for thyroid ultrasound images.",
+      "doi": "10.1007/s40477-022-00726-8",
+      "pmid": "36195781",
+      "year": "2023",
+      "journal": "J Ultrasound",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Prediction of Benign and Malignant Thyroid Nodules Based on Multicenter Ultrasound Images",
+      "doi": "10.21203/rs.3.rs-3456675/v1",
+      "pmid": null,
+      "year": "2023",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Segmentation of thyroid glands and nodules in ultrasound images using the improved U-Net architecture.",
+      "doi": "10.1186/s12880-023-01011-8",
+      "pmid": "37060061",
+      "year": "2023",
+      "journal": "BMC Med Imaging",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Symmetrical awareness network for cross-site ultrasound thyroid nodule segmentation.",
+      "doi": "10.3389/fpubh.2023.1055815",
+      "pmid": "36969643",
+      "year": "2023",
+      "journal": "Front Public Health",
+      "queries": [
+        "target",
+        "transport"
+      ]
+    },
+    {
+      "title": "The ability of Segmenting Anything Model (SAM) to segment ultrasound images.",
+      "doi": "10.5582/bst.2023.01128",
+      "pmid": "37344392",
+      "year": "2023",
+      "journal": "Biosci Trends",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "The auxiliary diagnosis of thyroid echogenic foci based on a deep learning segmentation model: A two-center study.",
+      "doi": "10.1016/j.ejrad.2023.111033",
+      "pmid": "37595399",
+      "year": "2023",
+      "journal": "Eur J Radiol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Thyroid region prior guided attention for ultrasound segmentation of thyroid nodules.",
+      "doi": "10.1016/j.compbiomed.2022.106389",
+      "pmid": "36812810",
+      "year": "2023",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A multitask approach for automated detection and segmentation of thyroid nodules in ultrasound images.",
+      "doi": "10.1016/j.compbiomed.2024.107974",
+      "pmid": "38244471",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A segmentation-based algorithm for classification of benign and malignancy Thyroid nodules with multi-feature information.",
+      "doi": "10.1007/s13534-024-00375-2",
+      "pmid": "38946824",
+      "year": "2024",
+      "journal": "Biomed Eng Lett",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Accelerated Inference for Thyroid Nodule Recognition in Ultrasound Imaging Using FPGA",
+      "doi": "10.21203/rs.3.rs-4645662/v1",
+      "pmid": null,
+      "year": "2024",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "An Ultrasound Image Segmentation Method for Thyroid Nodules Based on Dual-Path Attention Mechanism-Enhanced UNet++",
+      "doi": "10.21203/rs.3.rs-4791835/v1",
+      "pmid": null,
+      "year": "2024",
+      "journal": null,
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "An efficient framework for lesion segmentation in ultrasound images using global adversarial learning and region-invariant loss.",
+      "doi": "10.1016/j.compbiomed.2024.108137",
+      "pmid": "38447499",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "An ultrasonography of thyroid nodules dataset with pathological diagnosis annotation for deep learning.",
+      "doi": "10.1038/s41597-024-04156-5",
+      "pmid": "39580501",
+      "year": "2024",
+      "journal": "Sci Data",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "An ultrasound image segmentation method for thyroid nodules based on dual-path attention mechanism-enhanced UNet+.",
+      "doi": "10.1186/s12880-024-01521-z",
+      "pmid": "39695984",
+      "year": "2024",
+      "journal": "BMC Med Imaging",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Automatic prediction of non-iodine-avid status in lung metastases for radioactive I&lt;sup&gt;131&lt;/sup&gt; treatment in differentiated thyroid cancer patients.",
+      "doi": "10.3389/fendo.2024.1429115",
+      "pmid": "38933823",
+      "year": "2024",
+      "journal": "Front Endocrinol (Lausanne)",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "CT-Based Radiomics Models for Differentiation of Benign and Malignant Thyroid Nodules: A Multicenter Development and Validation Study.",
+      "doi": "10.2214/ajr.24.31077",
+      "pmid": "38691415",
+      "year": "2024",
+      "journal": "AJR Am J Roentgenol",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Calibrate the Inter-Observer Segmentation Uncertainty via Diagnosis-First Principle.",
+      "doi": "10.1109/tmi.2024.3394045",
+      "pmid": "38669168",
+      "year": "2024",
+      "journal": "IEEE Trans Med Imaging",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "DAC-Net: A light-weight U-shaped network based efficient convolution and attention for thyroid nodule segmentation.",
+      "doi": "10.1016/j.compbiomed.2024.108972",
+      "pmid": "39126790",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "DSTAN: A Deformable Spatial-temporal Attention Network with Bidirectional Sequence Feature Refinement for Speckle Noise Removal in Thyroid Ultrasound Video.",
+      "doi": "10.1007/s10278-023-00935-5",
+      "pmid": "38839673",
+      "year": "2024",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Densely connected convolutional networks for ultrasound image based lesion segmentation.",
+      "doi": "10.1016/j.compbiomed.2023.107725",
+      "pmid": "38006827",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "MFMSNet: A Multi-frequency and Multi-scale Interactive CNN-Transformer Hybrid Network for breast ultrasound image segmentation.",
+      "doi": "10.1016/j.compbiomed.2024.108616",
+      "pmid": "38795419",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "MLMSeg: A multi-view learning model for ultrasound thyroid nodule segmentation.",
+      "doi": "10.1016/j.compbiomed.2023.107898",
+      "pmid": "38176210",
+      "year": "2024",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Mamba- and ResNet-Based Dual-Branch Network for Ultrasound Thyroid Nodule Segmentation.",
+      "doi": "10.3390/bioengineering11101047",
+      "pmid": "39451422",
+      "year": "2024",
+      "journal": "Bioengineering (Basel)",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Multi-class classification of thyroid nodules from automatic segmented ultrasound images: Hybrid ResNet based UNet convolutional neural network approach.",
+      "doi": "10.1016/j.cmpb.2023.107921",
+      "pmid": "37950926",
+      "year": "2024",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Real-time reliable semantic segmentation of thyroid nodules in ultrasound images.",
+      "doi": "10.1088/1361-6560/ad1210",
+      "pmid": "38048630",
+      "year": "2024",
+      "journal": "Phys Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "SK-Unet++: An improved Unet++ network with adaptive receptive fields for automatic segmentation of ultrasound thyroid nodule images.",
+      "doi": "10.1002/mp.16672",
+      "pmid": "37606374",
+      "year": "2024",
+      "journal": "Med Phys",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "SPGAN Optimized by Piranha Foraging Optimization for Thyroid Nodule Classification in Ultrasound Images.",
+      "doi": "10.1177/01617346241271240",
+      "pmid": "39257166",
+      "year": "2024",
+      "journal": "Ultrason Imaging",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Shape-margin knowledge augmented network for thyroid nodule segmentation and diagnosis.",
+      "doi": "10.1016/j.cmpb.2023.107999",
+      "pmid": "38194766",
+      "year": "2024",
+      "journal": "Comput Methods Programs Biomed",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "TaiChiNet: Negative-Positive Cross-Attention Network for Breast Lesion Segmentation in Ultrasound Images.",
+      "doi": "10.1109/jbhi.2024.3352984",
+      "pmid": "38206781",
+      "year": "2024",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "The study on ultrasound image classification using a dual-branch model based on Resnet50 guided by U-net segmentation results.",
+      "doi": "10.1186/s12880-024-01486-z",
+      "pmid": "39558260",
+      "year": "2024",
+      "journal": "BMC Med Imaging",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Thyroid Ultrasound Image Database and Marker Mask Inpainting Method for Research and Development.",
+      "doi": "10.1016/j.ultrasmedbio.2023.12.011",
+      "pmid": "38267314",
+      "year": "2024",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "transport",
+        "resources"
+      ]
+    },
+    {
+      "title": "Via Multi-attention Guided UNet for Thyroid Nodule Segmentation of Ultrasound Images.",
+      "doi": "10.1109/embc53108.2024.10782780",
+      "pmid": "40031497",
+      "year": "2024",
+      "journal": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A novel hybrid deep learning and chaotic dynamics approach for thyroid cancer classification.",
+      "doi": "10.1038/s41598-025-24334-8",
+      "pmid": "41253983",
+      "year": "2025",
+      "journal": "Sci Rep",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A novel hybrid deep learning approach combining deep feature attention and statistical validation for enhanced thyroid ultrasound segmentation.",
+      "doi": "10.1038/s41598-025-12602-6",
+      "pmid": "40715468",
+      "year": "2025",
+      "journal": "Sci Rep",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Accelerated inference for thyroid nodule recognition in ultrasound imaging using FPGA.",
+      "doi": "10.1007/s13246-025-01548-8",
+      "pmid": "40332672",
+      "year": "2025",
+      "journal": "Phys Eng Sci Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Adaptive Bandelet Transform and Transfer Learning for Geometry‑Aware Thyroid Cancer Ultrasound Classification",
+      "doi": "10.20944/preprints202512.1708.v1",
+      "pmid": null,
+      "year": "2025",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Advancing thyroid diagnosis: integrating AI-driven CAD framework with numerical data and ultrasound images.",
+      "doi": "10.7717/peerj-cs.3063",
+      "pmid": "40989437",
+      "year": "2025",
+      "journal": "PeerJ Comput Sci",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Attention residual network for medical ultrasound image segmentation.",
+      "doi": "10.1038/s41598-025-04086-1",
+      "pmid": "40595803",
+      "year": "2025",
+      "journal": "Sci Rep",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Attention-based image segmentation and classification model for the preoperative risk stratification of thyroid nodules.",
+      "doi": "10.1002/wjs.12464",
+      "pmid": "39734138",
+      "year": "2025",
+      "journal": "World J Surg",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Automated thyroid nodule classification in ultrasound imaging using a hybrid vision transformer and Wasserstein GAN with gradient penalty.",
+      "doi": "10.1038/s41598-025-24651-y",
+      "pmid": "41258440",
+      "year": "2025",
+      "journal": "Sci Rep",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Coarse for Fine: Bounding Box Supervised Thyroid Ultrasound Image Segmentation Using Spatial Arrangement and Hierarchical Prediction Consistency.",
+      "doi": "10.1109/jbhi.2025.3535541",
+      "pmid": "40031340",
+      "year": "2025",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Complex-Valued Spatio-Temporal Graph Convolution Neural Network optimized With Giraffe Kicking Optimization Algorithm for Thyroid Nodule Classification in Ultrasound Images.",
+      "doi": "10.1177/01617346251362167",
+      "pmid": "40852830",
+      "year": "2025",
+      "journal": "Ultrason Imaging",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Construction of a Multimodal Machine Learning Model for Papillary Thyroid Carcinoma Based on Pathomics and Ultrasound Radiomics Dataset.",
+      "doi": "10.1016/j.dib.2025.111583",
+      "pmid": "40534709",
+      "year": "2025",
+      "journal": "Data Brief",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "Enhancing Diagnostic Precision in Thyroid Nodule Classification: A Deep Learning Approach to Automated Ultrasound Image Analysis",
+      "doi": "10.1101/2025.02.05.25321737",
+      "pmid": null,
+      "year": "2025",
+      "journal": null,
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Evaluation of a Hybrid CNN Model for Automatic Detection of Malignant and Benign Lesions.",
+      "doi": "10.3390/medicina61112036",
+      "pmid": "41303872",
+      "year": "2025",
+      "journal": "Medicina (Kaunas)",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Federated learning via multi-attention guided UNet for thyroid nodule segmentation of ultrasound images.",
+      "doi": "10.1016/j.neunet.2024.106754",
+      "pmid": "39362185",
+      "year": "2025",
+      "journal": "Neural Netw",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Frequency-Phase Guided Attention Complex-Valued Network for Ultrasound Image Segmentation.",
+      "doi": "10.1109/jbhi.2025.3565311",
+      "pmid": "40299743",
+      "year": "2025",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "GS-OCMXM: Towards Parallel and GPU Accelerated Computing on GS-Based Multi-Cross-Modality Learning for Accurate Segmentation of Ultrasonography Thyroid Nodule Cancer Detection with Limited Labels",
+      "doi": "10.20944/preprints202506.0149.v1",
+      "pmid": null,
+      "year": "2025",
+      "journal": null,
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Improving diagnostic precision in thyroid nodule segmentation from ultrasound images with a self-attention mechanism-based Swin U-Net model.",
+      "doi": "10.3389/fonc.2025.1456563",
+      "pmid": "39980538",
+      "year": "2025",
+      "journal": "Front Oncol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "MCBL-UNet: A Hybrid Mamba-CNN Boundary Enhanced Light-weight UNet for Placenta Ultrasound Image Segmentation.",
+      "doi": "10.1109/jbhi.2025.3599716",
+      "pmid": "40824989",
+      "year": "2025",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "MFA-Net: multi-scale feature aggregation network with background-aware module for ultrasound segmentation of thyroid nodules.",
+      "doi": "10.21037/qims-2025-1364",
+      "pmid": "41367745",
+      "year": "2025",
+      "journal": "Quant Imaging Med Surg",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "MLP-UNet: an algorithm for segmenting lesions in breast and thyroid ultrasound images.",
+      "doi": "10.1080/24699322.2025.2523266",
+      "pmid": "40580163",
+      "year": "2025",
+      "journal": "Comput Assist Surg (Abingdon)",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Multi-institutional development and testing of attention-enhanced deep learning segmentation of thyroid nodules on ultrasound.",
+      "doi": "10.1007/s11548-024-03294-w",
+      "pmid": "39751996",
+      "year": "2025",
+      "journal": "Int J Comput Assist Radiol Surg",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Multi-task Learning Framework with Shared Multi-layer Parameters for Segmentation and Classification of Thyroid Cancer Ultrasound Images",
+      "doi": "10.21203/rs.3.rs-6254474/v1",
+      "pmid": null,
+      "year": "2025",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Performance Evaluation of Deep Learning for the Detection and Segmentation of Thyroid Nodules: Systematic Review and Meta-Analysis.",
+      "doi": "10.2196/73516",
+      "pmid": "40811738",
+      "year": "2025",
+      "journal": "J Med Internet Res",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Prediction of lymph node metastasis in papillary thyroid carcinoma using non-contrast CT-based radiomics and deep learning with thyroid lobe segmentation: A dual-center study.",
+      "doi": "10.1016/j.ejro.2025.100639",
+      "pmid": "40093877",
+      "year": "2025",
+      "journal": "Eur J Radiol Open",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "SegUnXt+: A High-Performance Deep Learning Model for Thyroid Segmentation in Fully Automatic 3D USE Robotic Examination System.",
+      "doi": "10.1109/embc58623.2025.11253700",
+      "pmid": "41336966",
+      "year": "2025",
+      "journal": "Annu Int Conf IEEE Eng Med Biol Soc",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Spatial Prior-Guided Dual-Path Network for Thyroid Nodule Segmentation.",
+      "doi": "10.1109/jbhi.2025.3598048",
+      "pmid": "40794498",
+      "year": "2025",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "TN5000: An Ultrasound Image Dataset for Thyroid Nodule Detection and Classification.",
+      "doi": "10.1038/s41597-025-05757-4",
+      "pmid": "40819171",
+      "year": "2025",
+      "journal": "Sci Data",
+      "queries": [
+        "benchmarks",
+        "resources"
+      ]
+    },
+    {
+      "title": "Thyroid nodule segmentation in ultrasound images using transformer models with masked autoencoder pre-training.",
+      "doi": "10.3389/frai.2025.1618426",
+      "pmid": "40777517",
+      "year": "2025",
+      "journal": "Front Artif Intell",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Towards Reliable Healthcare Imaging: A Multifaceted Approach in Class Imbalance Handling for Medical Image Segmentation.",
+      "doi": "10.1007/s12539-025-00726-2",
+      "pmid": "40624391",
+      "year": "2025",
+      "journal": "Interdiscip Sci",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Transformer-Driven Semantic Segmentation for Thyroid Ultrasound: A SwinUNet-Based Architecture with Integrated Attention",
+      "doi": "10.20944/preprints202512.0885.v1",
+      "pmid": null,
+      "year": "2025",
+      "journal": null,
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Ultrasound Thyroid Nodule Segmentation Algorithm Based on DeepLabV3+ with EfficientNet.",
+      "doi": "10.1007/s10278-025-01436-3",
+      "pmid": "40000546",
+      "year": "2025",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Weakly-supervised thyroid ultrasound segmentation: Leveraging multi-scale consistency, contextual features, and bounding box supervision for accurate target delineation.",
+      "doi": "10.1016/j.compbiomed.2025.109669",
+      "pmid": "39809086",
+      "year": "2025",
+      "journal": "Comput Biol Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "[Thyroid nodule segmentation method integrating receiving weighted key-value architecture and spherical geometric features].",
+      "doi": "10.7507/1001-5515.202412009",
+      "pmid": "40566780",
+      "year": "2025",
+      "journal": "Sheng Wu Yi Xue Gong Cheng Xue Za Zhi",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A Novel Instance Segmentation Method for Real-Time Detection of Thyroid Nodules in Ultrasound Videos: A Multi-Center Study.",
+      "doi": "10.1016/j.ultrasmedbio.2025.09.015",
+      "pmid": "41253629",
+      "year": "2026",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "A ResNet-ViT classification model for thyroid nodules using ultrasound images and clinical information.",
+      "doi": "10.1088/2057-1976/ae3e9b",
+      "pmid": "41604707",
+      "year": "2026",
+      "journal": "Biomed Phys Eng Express",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A cloud-edge adaptive lightweight network with dynamic inference enables real-time ultrasound image segmentation.",
+      "doi": "10.1038/s41598-026-59234-y",
+      "pmid": "42373722",
+      "year": "2026",
+      "journal": "Sci Rep",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "A deep learning-based framework for the malignancy analysis of thyroid lesions in contrast-enhanced ultrasound videos.",
+      "doi": "10.1016/j.artmed.2026.103500",
+      "pmid": "42526280",
+      "year": "2026",
+      "journal": "Artif Intell Med",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "A novel network for resolving subjective masking differences and accurate thyroid nodule diagnosis.",
+      "doi": "10.1016/j.compbiolchem.2025.108572",
+      "pmid": "40819526",
+      "year": "2026",
+      "journal": "Comput Biol Chem",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "ACLA-Net: attention-guided cross-level alignment network for MRI-based prostate cancer lesion segmentation.",
+      "doi": "10.3389/fphys.2026.1860527",
+      "pmid": "42769120",
+      "year": "2026",
+      "journal": "Front Physiol",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Adaptive Bandelet Transform and Transfer Learning for Geometry-Aware Thyroid Cancer Ultrasound Classification.",
+      "doi": "10.3390/diagnostics16040554",
+      "pmid": "41750702",
+      "year": "2026",
+      "journal": "Diagnostics (Basel)",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Adversarial robustness of deep learning-based thyroid nodule segmentation in ultrasound.",
+      "doi": "10.1371/journal.pdig.0001797",
+      "pmid": "42981353",
+      "year": "2026",
+      "journal": "PLOS Digit Health",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "An Agentic, No Code Artificial Intelligence Workflow for Developing and Externally Validating a Thyroid Nodule Ultrasound Malignancy Classifier",
+      "doi": "10.64898/2026.06.23.26356395",
+      "pmid": null,
+      "year": "2026",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "An agentic, no-code artificial intelligence workflow for developing a thyroid nodule ultrasound malignancy classifier.",
+      "doi": "10.1210/clinem/dgag351",
+      "pmid": "42808848",
+      "year": "2026",
+      "journal": "J Clin Endocrinol Metab",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in otolaryngology: current applications, limitations, and future perspectives.",
+      "doi": "10.1007/s00405-026-10560-x",
+      "pmid": "42745060",
+      "year": "2026",
+      "journal": "Eur Arch Otorhinolaryngol",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in thyroid ultrasound: clinical applications and perspectives.",
+      "doi": "10.3389/fendo.2026.1877780",
+      "pmid": "42643768",
+      "year": "2026",
+      "journal": "Front Endocrinol (Lausanne)",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "AsyCMST: Asymmetric cross-modal spatio-temporal learning for multimodal ultrasound nodule recognition.",
+      "doi": "10.1016/j.media.2026.104127",
+      "pmid": "42166865",
+      "year": "2026",
+      "journal": "Med Image Anal",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Automated segmentation of thyroid tissue and carotid artery in ultrasound videos using expert-in-the-loop deep learning: a foundational step toward AI-assisted thyroid diagnostics.",
+      "doi": "10.1007/s13304-026-02782-9",
+      "pmid": "42536309",
+      "year": "2026",
+      "journal": "Updates Surg",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "BoxSegUS: A Spatial Consistency Box Supervised Multi-Class Segmentation with Prior and Boundary Constraint for Ultrasound Images.",
+      "doi": "10.1109/jbhi.2026.3722702",
+      "pmid": "42579582",
+      "year": "2026",
+      "journal": "IEEE J Biomed Health Inform",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Contrast-Enhanced VM-UNet for Thyroid Nodule Segmentation Based on Wavelet Features and Dual-Branch Edge Learning.",
+      "doi": "10.1007/s10278-026-01910-6",
+      "pmid": "41927821",
+      "year": "2026",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Cross-cohort evaluation of thyroid ultrasound deep learning across different outcome definitions: a duplicate-controlled benchmark",
+      "doi": "10.21203/rs.3.rs-10733698/v1",
+      "pmid": null,
+      "year": "2026",
+      "journal": null,
+      "queries": [
+        "benchmarks",
+        "resources"
+      ]
+    },
+    {
+      "title": "Cross-gated feature interaction network for fetal abdominal circumference image segmentation.",
+      "doi": "10.1038/s41598-026-54635-5",
+      "pmid": "42722694",
+      "year": "2026",
+      "journal": "Sci Rep",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "DPF-EHDNet: a differential-path and structurally enhanced network for thyroid ultrasound segmentation.",
+      "doi": "10.3389/fmed.2026.1803455",
+      "pmid": "42239953",
+      "year": "2026",
+      "journal": "Front Med (Lausanne)",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Deep Learning for Medical Ultrasound Image Segmentation: A Systematic Review of the Current Research.",
+      "doi": "10.1007/s10278-026-01931-1",
+      "pmid": "41912960",
+      "year": "2026",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Development and validation of an Automated computed tomography segmentation model for thyroid nodules using a channel attention high-resolution network.",
+      "doi": "10.21037/gs-2026-0162",
+      "pmid": "42445068",
+      "year": "2026",
+      "journal": "Gland Surg",
+      "queries": [
+        "target",
+        "transport"
+      ]
+    },
+    {
+      "title": "Diagnostic Performance and Calibration of AI Models for Thyroid Ultrasound Malignancy Classification: From TN5000 to ThyroidXL.",
+      "doi": "10.1007/s10278-026-02460-7",
+      "pmid": "42972193",
+      "year": "2026",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Domain adaptation of stable diffusion for ultrasound inpainting: a synthetic data approach for enhanced thyroid nodule segmentation.",
+      "doi": "10.1016/j.jbi.2025.104963",
+      "pmid": "41330484",
+      "year": "2026",
+      "journal": "J Biomed Inform",
+      "queries": [
+        "target",
+        "benchmarks",
+        "transport"
+      ]
+    },
+    {
+      "title": "EvoThy-Net: an evolutionary encoder-decoder network for thyroid nodule segmentation in ultrasound imaging.",
+      "doi": "10.1038/s41598-025-34731-8",
+      "pmid": "41530233",
+      "year": "2026",
+      "journal": "Sci Rep",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Exploratory thyroid ultrasound-computed tomography synthesis using anatomy-preserving contrastive unpaired translation.",
+      "doi": "10.1515/bmt-2026-0248",
+      "pmid": "42836658",
+      "year": "2026",
+      "journal": "Biomed Tech (Berl)",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Frequency-aware Vision Mamba With Deformable Windowed Selective Scan for Ultrasound Image Segmentation.",
+      "doi": "10.1016/j.ultrasmedbio.2026.02.015",
+      "pmid": "41856816",
+      "year": "2026",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "Intelligent segmentation of thyroid nodule ultrasound images based on benign-malignant-aware semantic prototype calibration and class-conditional boundary refinement.",
+      "doi": "10.3389/fcell.2026.1879094",
+      "pmid": "42698605",
+      "year": "2026",
+      "journal": "Front Cell Dev Biol",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "LGFFM: A Localized and Globalized Frequency Fusion Model for Ultrasound Image Segmentation.",
+      "doi": "10.1109/tmi.2025.3600327",
+      "pmid": "40828733",
+      "year": "2026",
+      "journal": "IEEE Trans Med Imaging",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "LOCUS-Diff: Location-Controlled Thyroid Ultrasound Synthesis for Advancing Nodule Detection.",
+      "doi": "10.1007/s10278-026-02246-x",
+      "pmid": "42745110",
+      "year": "2026",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "LymphUs: A multicenter open-access database of lymph node ultrasound images in patients with papillary thyroid carcinoma for clinical and artificial intelligence research.",
+      "doi": "10.1016/j.dib.2026.112694",
+      "pmid": "41940127",
+      "year": "2026",
+      "journal": "Data Brief",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "MFS-Unet: A Multi-Path Vision Mamba Network for Precise Thyroid Nodule Segmentation.",
+      "doi": "10.1049/syb2.70044",
+      "pmid": "41641847",
+      "year": "2026",
+      "journal": "IET Syst Biol",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "MSCT-Trans: A Multi-scale Convolutional Neural Network Token Transformer for Interpretable Ultrasound Image Classification.",
+      "doi": "10.1016/j.ultrasmedbio.2026.07.032",
+      "pmid": "42637640",
+      "year": "2026",
+      "journal": "Ultrasound Med Biol",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Malignancy-Aware Dual-Task Heatmap Decoupling for thyroid ultrasound nodule detection and classification.",
+      "doi": "10.3389/fonc.2026.1888077",
+      "pmid": "42755730",
+      "year": "2026",
+      "journal": "Front Oncol",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Multiscale Switch for Semi-Supervised and Contrastive Learning in Medical Ultrasound Image Segmentation.",
+      "doi": "10.1109/tnnls.2026.3669814",
+      "pmid": "41805533",
+      "year": "2026",
+      "journal": "IEEE Trans Neural Netw Learn Syst",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Optimizing a Multimodal Large Language Model for Ultrasound-Based Thyroid Nodule Malignancy Classification: A Comparative Study of Few-Shot Learning, Prompt Engineering, and Fine-Tuning.",
+      "doi": "10.3390/diagnostics16121931",
+      "pmid": "42351590",
+      "year": "2026",
+      "journal": "Diagnostics (Basel)",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Precise anatomical delineation in ultrasound imaging using echo-spectral interactive networks.",
+      "doi": "10.1002/acm2.70891",
+      "pmid": "43000665",
+      "year": "2026",
+      "journal": "J Appl Clin Med Phys",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "R3Net: Recursive Residual Refinement Network Architecture for Decoder-Free Medical Image Segmentation.",
+      "doi": "10.1002/pro6.70082",
+      "pmid": "42540339",
+      "year": "2026",
+      "journal": "Precis Radiat Oncol",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "RCAF for patient-level thyroid ultrasound malignancy prediction under leakage-free evaluation and calibration.",
+      "doi": "10.1038/s41598-026-61342-8",
+      "pmid": "42463758",
+      "year": "2026",
+      "journal": "Sci Rep",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "RTS-Net: thyroid nodule segmentation network integrating dual-path attention and graph convolution.",
+      "doi": "10.3389/fmed.2026.1785796",
+      "pmid": "42051716",
+      "year": "2026",
+      "journal": "Front Med (Lausanne)",
+      "queries": [
+        "target",
+        "benchmarks",
+        "transport"
+      ]
+    },
+    {
+      "title": "Research on precise segmentation model of thyroid nodules based on deep learning.",
+      "doi": "10.1371/journal.pone.0358892",
+      "pmid": "42848750",
+      "year": "2026",
+      "journal": "PLoS One",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "SEED-Net: statistical echo evidence and detail modeling for ultrasound lesion classification across multiple organ-specific datasets.",
+      "doi": "10.3389/fmed.2026.1942733",
+      "pmid": "42718818",
+      "year": "2026",
+      "journal": "Front Med (Lausanne)",
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "TEM-Net: A Tri-Channel Edge-Aware Multi-Scale Network for Thyroid Nodule Segmentation in Ultrasound Images.",
+      "doi": "10.3390/bioengineering13070810",
+      "pmid": "42510475",
+      "year": "2026",
+      "journal": "Bioengineering (Basel)",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "The Luo-Dingyuan Thyroid Vascular-Lymphatic Segmentation Classification: A Functional Anatomy-Based Framework to Facilitate Precision Management and Thyroid Function Preservation.",
+      "doi": "10.2147/cmar.s607765",
+      "pmid": "42199451",
+      "year": "2026",
+      "journal": "Cancer Manag Res",
+      "queries": [
+        "target"
+      ]
+    },
+    {
+      "title": "ThyrAI: An Explainable Hybrid Image-Clinical Deep Learning Framework for Thyroid Nodule Risk Stratification",
+      "doi": "10.21203/rs.3.rs-9858802/v1",
+      "pmid": null,
+      "year": "2026",
+      "journal": null,
+      "queries": [
+        "benchmarks",
+        "transport"
+      ]
+    },
+    {
+      "title": "Thyro-LMD: A Benchmark Dataset and Sample-Driven Data Loading, Attention, and Regularization for Long-Tailed Multi-Label Thyroid Ultrasound Diagnosis.",
+      "doi": "10.1109/tmi.2026.3690144",
+      "pmid": "42081403",
+      "year": "2026",
+      "journal": "IEEE Trans Med Imaging",
+      "queries": [
+        "resources"
+      ]
+    },
+    {
+      "title": "ThyroFusion: A Multi-modal Deep Learning Framework Integrating Vision and Language for Thyroid Nodule Malignancy Risk Assessment.",
+      "doi": "10.1007/s10278-026-01964-6",
+      "pmid": "42020852",
+      "year": "2026",
+      "journal": "J Imaging Inform Med",
+      "queries": [
+        "benchmarks",
+        "transport"
+      ]
+    },
+    {
+      "title": "ThyroGuard-Net: A Sensitivity-Optimised, Explainable Hybrid CNN–Transformer Framework with Evidential Uncertainty for Thyroid Nodule Classification",
+      "doi": "10.21203/rs.3.rs-10679877/v1",
+      "pmid": null,
+      "year": "2026",
+      "journal": null,
+      "queries": [
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Ultrasound-based Peri-nodular and Intra-nodular Habitat Radiomics for Preoperative Prediction of Lymph Node Metastasis in Papillary Thyroid Carcinoma.",
+      "doi": "10.2174/0115734056501170261011103553",
+      "pmid": "42983217",
+      "year": "2026",
+      "journal": "Curr Med Imaging",
+      "queries": [
+        "transport"
+      ]
+    },
+    {
+      "title": "Ultrasound-based thyroid nodule segmentation with deep hybrid convolutional network.",
+      "doi": "10.1002/mp.70548",
+      "pmid": "42545090",
+      "year": "2026",
+      "journal": "Med Phys",
+      "queries": [
+        "target",
+        "benchmarks"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "trainval_vs_official_test": {
+    "candidate_pairs": 0,
+    "high_similarity_pairs": 0,
+    "left_flagged": 0,
+    "right_flagged": 0
+  },
+  "trainval_within": {
+    "candidate_pairs": 90,
+    "high_similarity_pairs": 1,
+    "left_flagged": 1,
+    "right_flagged": 1
+  },
+  "TN3K_trainval_vs_DDTI": {
+    "candidate_pairs": 1,
+    "high_similarity_pairs": 0,
+    "left_flagged": 0,
+    "right_flagged": 0
+  },
+  "TN3K_test_vs_DDTI": {
+    "candidate_pairs": 0,
+    "high_similarity_pairs": 0,
+    "left_flagged": 0,
+    "right_flagged": 0
+  },
+  "folds": [
+    {
+      "train": 2303,
+      "val": 576,
+      "indices_disjoint": true
+    },
+    {
+      "train": 2303,
+      "val": 576,
+      "indices_disjoint": true
+    },
+    {
+      "train": 2303,
+      "val": 576,
+      "indices_disjoint": true
+    },
+    {
+      "train": 2303,
+      "val": 576,
+      "indices_disjoint": true
+    },
+    {
+      "train": 2304,
+      "val": 575,
+      "indices_disjoint": true
+    }
+  ],
+  "validation_indices_cover_all_trainval_once": true,
+  "criterion": "64-bit difference hash with Hamming distance <=4 then correlation of 64x64 grayscale images >=0.995. Flag for review; no registration or crop/flip search."
+}

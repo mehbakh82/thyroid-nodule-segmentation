@@ -1,0 +1,17 @@
+{
+  "training_images": 2303,
+  "validation_images": 576,
+  "independent_recomputed_dice": {
+    "gray": 0.8149559391409125,
+    "edge": 0.8167369819954684,
+    "contrast": 0.815647410089127,
+    "gradient": 0.8146631539153254
+  },
+  "linked_archive_digests": 2,
+  "verified_checkpoints": 4,
+  "verified_saved_binary_masks": 2304,
+  "fusion_rows": 576,
+  "blinded_cases": 12,
+  "reader_response_rows": 12,
+  "ddti_map_sha256": "eabf6a959ee28c4a9912fc46422e4ca634303fe712fb8906d7d68a4add4fd638"
+}

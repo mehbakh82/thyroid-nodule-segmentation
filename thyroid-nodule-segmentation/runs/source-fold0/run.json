@@ -1,0 +1,15 @@
+{
+  "device": "mps",
+  "torch": "2.9.1",
+  "opencv": "4.12.0",
+  "python": "3.12.16",
+  "manifest": "1341b4d14bc7da77572aa5e177001be829a7cfe8c4dca8220456fc9c6c083221",
+  "weights": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+  "train": 2303,
+  "val": 576,
+  "model": "d0a3146603c6838e2bb6c5b305484464b4e2c49963c1d431b590a70c4593e457",
+  "trainer": "df1756973e55ad8e154b71f34b8299d17ff49d3260241e2cb45934dc2b873b76",
+  "epochs": 12,
+  "batch": 8,
+  "seed": 241121
+}

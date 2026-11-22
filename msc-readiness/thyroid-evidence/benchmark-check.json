@@ -1,0 +1,189 @@
+{
+  "source": "https://github.com/antproc/thyroid-ultrasound-augmentation-benchmark/tree/eeb752dd67335d45a2f45a94516c59c63989a3d4",
+  "status": "authors describe manuscript as under review",
+  "n_ood_rows": 360,
+  "ddti_panel_counts": {
+    "2": 58,
+    "1": 310,
+    "3": 9,
+    "4": 2,
+    "5": 1
+  },
+  "parts": {
+    "train": {
+      "panels": 278,
+      "cases": 228
+    },
+    "val": {
+      "panels": 102,
+      "cases": 76
+    },
+    "test": {
+      "panels": 86,
+      "cases": 76
+    }
+  },
+  "source_files": {
+    "ood_summary.csv": "909ff3e2987368553fd0c4b0d21ca23fa967563fe372862d2823e069d8f0b78b",
+    "panel_map.csv": "b41289784c13033e4e6c1d362c8d64881c202f19cd2540153aa0a940c12e3ad3",
+    "splits-recent.csv": "da58bd87b441a2271609a937edaabf85b1b6fe961755dbccc1321f9553d58fdd"
+  },
+  "TN3K_to_DDTI": [
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "res34_unet",
+      "architecture": "ResNet34-U-Net",
+      "strategy": "baseline",
+      "mean_dice": "0.601636043326026",
+      "sd_seed_dice": "0.024727570833616555",
+      "mean_iou": "0.49384296546686846",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "res34_unet",
+      "architecture": "ResNet34-U-Net",
+      "strategy": "best_single",
+      "mean_dice": "0.6273615704546383",
+      "sd_seed_dice": "0.02946322534039346",
+      "mean_iou": "0.5199465464443996",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "res34_unet",
+      "architecture": "ResNet34-U-Net",
+      "strategy": "trivialaugment",
+      "mean_dice": "0.6550890917469143",
+      "sd_seed_dice": "0.0232537451366287",
+      "mean_iou": "0.5401404023368594",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "res34_unet",
+      "architecture": "ResNet34-U-Net",
+      "strategy": "randaugment",
+      "mean_dice": "0.6478094840360028",
+      "sd_seed_dice": "0.04578841027831675",
+      "mean_iou": "0.5353207839488932",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "deeplabv3plus_resnet50",
+      "architecture": "DeepLabV3+",
+      "strategy": "baseline",
+      "mean_dice": "0.5921554776935521",
+      "sd_seed_dice": "0.029206888635009306",
+      "mean_iou": "0.48176244267488044",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "deeplabv3plus_resnet50",
+      "architecture": "DeepLabV3+",
+      "strategy": "best_single",
+      "mean_dice": "0.6176940974808723",
+      "sd_seed_dice": "0.017342626363375913",
+      "mean_iou": "0.512779724944835",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "deeplabv3plus_resnet50",
+      "architecture": "DeepLabV3+",
+      "strategy": "trivialaugment",
+      "mean_dice": "0.6806228768422734",
+      "sd_seed_dice": "0.014865633576989922",
+      "mean_iou": "0.5703952588868613",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "deeplabv3plus_resnet50",
+      "architecture": "DeepLabV3+",
+      "strategy": "randaugment",
+      "mean_dice": "0.6582533192615949",
+      "sd_seed_dice": "0.02263125301213676",
+      "mean_iou": "0.5394712169192716",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "mit_b2_unet",
+      "architecture": "MiT-B2-U-Net",
+      "strategy": "baseline",
+      "mean_dice": "0.6478239488331329",
+      "sd_seed_dice": "0.026532453309315748",
+      "mean_iou": "0.5366728309707643",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "mit_b2_unet",
+      "architecture": "MiT-B2-U-Net",
+      "strategy": "best_single",
+      "mean_dice": "0.6787307157710607",
+      "sd_seed_dice": "0.015582974411851337",
+      "mean_iou": "0.5601872709787609",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "mit_b2_unet",
+      "architecture": "MiT-B2-U-Net",
+      "strategy": "trivialaugment",
+      "mean_dice": "0.667112966049469",
+      "sd_seed_dice": "0.014952278784478974",
+      "mean_iou": "0.5499204331224093",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    },
+    {
+      "source_dataset": "TN3K",
+      "target_dataset": "DDTI",
+      "model": "mit_b2_unet",
+      "architecture": "MiT-B2-U-Net",
+      "strategy": "randaugment",
+      "mean_dice": "0.6991979497189696",
+      "sd_seed_dice": "0.005972981261523792",
+      "mean_iou": "0.5814821815965243",
+      "n_images": "86",
+      "n_units": "76",
+      "n_seeds": "3"
+    }
+  ]
+}

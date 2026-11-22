@@ -1,0 +1,74 @@
+[
+  {
+    "i": 1975,
+    "stratum": "little change",
+    "case": 1,
+    "A": "edge"
+  },
+  {
+    "i": 1100,
+    "stratum": "persistent worsening",
+    "case": 2,
+    "A": "gray"
+  },
+  {
+    "i": 2560,
+    "stratum": "persistent improvement",
+    "case": 3,
+    "A": "gray"
+  },
+  {
+    "i": 2050,
+    "stratum": "complete miss by both",
+    "case": 4,
+    "A": "edge"
+  },
+  {
+    "i": 2760,
+    "stratum": "persistent worsening",
+    "case": 5,
+    "A": "gray"
+  },
+  {
+    "i": 2615,
+    "stratum": "persistent improvement",
+    "case": 6,
+    "A": "edge"
+  },
+  {
+    "i": 880,
+    "stratum": "persistent worsening",
+    "case": 7,
+    "A": "gray"
+  },
+  {
+    "i": 515,
+    "stratum": "sensitive to scoring choice",
+    "case": 8,
+    "A": "gray"
+  },
+  {
+    "i": 2115,
+    "stratum": "persistent improvement",
+    "case": 9,
+    "A": "edge"
+  },
+  {
+    "i": 1920,
+    "stratum": "complete miss by both",
+    "case": 10,
+    "A": "edge"
+  },
+  {
+    "i": 1450,
+    "stratum": "little change",
+    "case": 11,
+    "A": "edge"
+  },
+  {
+    "i": 1335,
+    "stratum": "sensitive to scoring choice",
+    "case": 12,
+    "A": "gray"
+  }
+]

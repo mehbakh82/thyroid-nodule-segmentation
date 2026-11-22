@@ -1,0 +1,27 @@
+Mac monitor: {'time': 1795283867.862478, 'thermal': 'nominal', 'ac_power': True, 'driver_bytes': 393216}
+contrast first batch loss 0.787020206451416
+contrast {'epoch': 1, 'loss': 0.4696730275388081, 'seconds': 100.76644524998846}
+contrast {'epoch': 2, 'loss': 0.26371292730439916, 'seconds': 100.07297087498591}
+contrast {'epoch': 3, 'loss': 0.21673528329217326, 'seconds': 97.19001358299283}
+contrast {'epoch': 4, 'loss': 0.19219275013654066, 'seconds': 98.37851950002369}
+contrast {'epoch': 5, 'loss': 0.18123640954054493, 'seconds': 114.15709074999904}
+contrast {'epoch': 6, 'loss': 0.16507994253843492, 'seconds': 102.89610754197929}
+contrast {'epoch': 7, 'loss': 0.15687006471263704, 'seconds': 97.9787882079836}
+contrast {'epoch': 8, 'loss': 0.14514612023125406, 'seconds': 104.84464291701443}
+contrast {'epoch': 9, 'loss': 0.13511080623863575, 'seconds': 99.62702083299519}
+contrast {'epoch': 10, 'loss': 0.12866409705920268, 'seconds': 95.56862133301911}
+contrast {'epoch': 11, 'loss': 0.12074619679154906, 'seconds': 95.55592141699162}
+contrast {'epoch': 12, 'loss': 0.11999718437907078, 'seconds': 96.66539662500145}
+gradient first batch loss 0.7901849150657654
+gradient {'epoch': 1, 'loss': 0.4705257175592977, 'seconds': 98.39981812497717}
+gradient {'epoch': 2, 'loss': 0.2670180220941435, 'seconds': 98.85955366701819}
+gradient {'epoch': 3, 'loss': 0.21790852051841347, 'seconds': 99.92896545800613}
+gradient {'epoch': 4, 'loss': 0.18997286466531427, 'seconds': 100.43150837501162}
+gradient {'epoch': 5, 'loss': 0.18312282785870332, 'seconds': 101.8387394999736}
+gradient {'epoch': 6, 'loss': 0.1670200415812934, 'seconds': 106.7367806250113}
+gradient {'epoch': 7, 'loss': 0.15244640726345393, 'seconds': 98.60857187499641}
+gradient {'epoch': 8, 'loss': 0.14200147131034926, 'seconds': 108.00406787500833}
+gradient {'epoch': 9, 'loss': 0.13531010470802352, 'seconds': 104.79401745798532}
+gradient {'epoch': 10, 'loss': 0.12768416874728614, 'seconds': 102.9613500420237}
+gradient {'epoch': 11, 'loss': 0.12210838327809515, 'seconds': 102.63559133300441}
+gradient {'epoch': 12, 'loss': 0.1188474283288781, 'seconds': 98.4998892500007}

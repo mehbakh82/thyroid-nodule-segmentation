@@ -1,0 +1,12 @@
+{
+  "description": "Exploratory image-only localization before reviewing either model's predictions. Keys are one-based slots in the fixed 36-image blind panel. Integer points are approximate visible measurement-cross centers on the letterboxed 224 grid. Seven of the ten clearly marked images had points selected. Regions are disks of radius four pixels.",
+  "points": {
+    "8": [[22,61],[122,65],[63,21],[65,111]],
+    "9": [[69,82],[159,83],[135,63]],
+    "12": [[80,75],[92,86]],
+    "16": [[32,88],[93,90],[65,67]],
+    "20": [[51,82],[58,126],[95,45]],
+    "23": [[76,67],[132,67],[108,49]],
+    "26": [[118,41],[4,68]]
+  }
+}

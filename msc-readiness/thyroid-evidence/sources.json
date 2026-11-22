@@ -1,0 +1,62 @@
+{
+  "checked_files": {
+    "TN3K.rar": {
+      "url": "https://huggingface.co/datasets/haifan-gong/TN3K/resolve/c0479e921fc9b7afcf1e8ca9b296a408e06a5bb9/TN3K.rar",
+      "sha256": "407fe2b4992e83b037621214aaaa39d86072e03d4ee3765f3c68d06e546e4ad4",
+      "bytes": 184398942
+    },
+    "ddti.zip": {
+      "url": "https://huggingface.co/datasets/us-segmentator/us-segmentation-dataset/resolve/6e7dadb8681fa5a137a1a607127510e36235610d/zips/Thyroid/ThyroidNodule-DDTI.zip",
+      "sha256": "09044da4ca9dc87cddcf8ed94117b7f422acd40b28b5b5b400a883702521fa53",
+      "bytes": 38519130
+    }
+  },
+  "trees": {
+    "VNPT-AI/ThyroidXL": {
+      "revision": "b15fe293bd74f1a8a4f05bf88bcdf06a1934125f",
+      "listed_files": 46567,
+      "gated": "auto"
+    },
+    "haifan-gong/TN3K": {
+      "revision": "c0479e921fc9b7afcf1e8ca9b296a408e06a5bb9",
+      "listed_files": 6996,
+      "gated": false
+    },
+    "MedXAgent/ThyroidOpenDB": {
+      "revision": "9445cae01dcacf5cbe3c1d8898860cc6ca98b345",
+      "listed_files": 38,
+      "gated": "manual"
+    },
+    "RosieYY628/HFA-UNet": {
+      "revision": "fd013270a439e989c2c6741831368ac8bcd246a5",
+      "listed_files": 49,
+      "gated": null
+    },
+    "apple1986/WAU-Net": {
+      "revision": "096301fdaa1ee5caff08c33a91e8558b6af5cfaa",
+      "listed_files": 45,
+      "gated": null
+    },
+    "haifangong/TRFE-Net-for-thyroid-nodule-segmentation": {
+      "revision": "a2f11b4f3e5cb79b85d1472b6ba489499eef47e7",
+      "listed_files": 131,
+      "gated": null
+    },
+    "taodeng/TNPPD-Net": {
+      "revision": "61b6151f40aa82759a9613082840066017922d90",
+      "listed_files": 26,
+      "gated": null
+    },
+    "NEU-LX/TUD-Datebase": {
+      "revision": "e5d6139d4123994eddc386526c86019d4c3b5d58",
+      "listed_files": 2,
+      "gated": null
+    },
+    "JunMa11/TNSCUI2020": {
+      "revision": "b0b52dc645b17ae95d50e099b9a47d26440eda77",
+      "listed_files": 11,
+      "gated": null
+    }
+  },
+  "downloaded_data_scope": "TN3K author archive and processed DDTI US-Segmentator mirror only."
+}

@@ -1,0 +1,176 @@
+{
+  "stats": [
+    {
+      "label": "TN3K trainval",
+      "images": 2879,
+      "masks": 2879,
+      "paired": 2879,
+      "unmatched_image": 0,
+      "unmatched_mask": 0,
+      "unique_decoded_RGB": 2879,
+      "unique_RGB_and_decoded_L_mask": 2879,
+      "unique_RGB_and_halfmax_mask": 2879,
+      "identical_RGB_groups_with_different_halfmax_masks": 0,
+      "shape_count": 2443,
+      "common_sizes": [
+        [
+          "411x336",
+          10
+        ],
+        [
+          "411x330",
+          8
+        ],
+        [
+          "411x333",
+          7
+        ]
+      ],
+      "mask_maxima": {
+        "255": 2879
+      },
+      "checks": {
+        "intermediate_gray_levels": 2879
+      },
+      "channels": {},
+      "max_only_vs_halfmax_dice": [
+        0.603175,
+        0.866381,
+        0.943389,
+        0.975801,
+        0.991511
+      ],
+      "max_only_vs_halfmax_fraction_pixels_changed": [
+        0.00075,
+        0.003191,
+        0.00936,
+        0.019383,
+        0.03272
+      ],
+      "foreground_area_fraction": [
+        0.002037,
+        0.015872,
+        0.085691,
+        0.36289,
+        0.758842
+      ]
+    },
+    {
+      "label": "TN3K official test, file QA only",
+      "images": 614,
+      "masks": 614,
+      "paired": 614,
+      "unmatched_image": 0,
+      "unmatched_mask": 0,
+      "unique_decoded_RGB": 614,
+      "unique_RGB_and_decoded_L_mask": 614,
+      "unique_RGB_and_halfmax_mask": 614,
+      "identical_RGB_groups_with_different_halfmax_masks": 0,
+      "shape_count": 555,
+      "common_sizes": [
+        [
+          "417x389",
+          4
+        ],
+        [
+          "417x387",
+          4
+        ],
+        [
+          "466x378",
+          4
+        ]
+      ],
+      "mask_maxima": {
+        "255": 614
+      },
+      "checks": {
+        "intermediate_gray_levels": 614
+      },
+      "channels": {},
+      "max_only_vs_halfmax_dice": [
+        0.62201,
+        0.866034,
+        0.954388,
+        0.982906,
+        0.993356
+      ],
+      "max_only_vs_halfmax_fraction_pixels_changed": [
+        0.00065,
+        0.002164,
+        0.005929,
+        0.014086,
+        0.026283
+      ],
+      "foreground_area_fraction": [
+        0.00257,
+        0.010816,
+        0.070384,
+        0.304677,
+        0.709109
+      ]
+    },
+    {
+      "label": "DDTI via US-Segmentator",
+      "images": 1274,
+      "masks": 637,
+      "paired": 637,
+      "unmatched_image": 637,
+      "unmatched_mask": 0,
+      "unique_decoded_RGB": 630,
+      "unique_RGB_and_decoded_L_mask": 634,
+      "unique_RGB_and_halfmax_mask": 634,
+      "identical_RGB_groups_with_different_halfmax_masks": 4,
+      "shape_count": 1,
+      "common_sizes": [
+        [
+          "256x256",
+          637
+        ]
+      ],
+      "mask_maxima": {
+        "255": 637
+      },
+      "checks": {},
+      "channels": {},
+      "max_only_vs_halfmax_dice": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max_only_vs_halfmax_fraction_pixels_changed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "foreground_area_fraction": [
+        0.005371,
+        0.020575,
+        0.075851,
+        0.197839,
+        0.418884
+      ]
+    }
+  ],
+  "cross_split_shared_decoded_RGB": 0,
+  "shared_decoded_RGB_between_TN3K_and_DDTI": 0,
+  "ddti_double_extension_pairs": 637,
+  "ddti_double_extension_identical_RGB": 637,
+  "ddti_split_sizes": {
+    "train": 447,
+    "val": 63,
+    "test": 127
+  },
+  "ddti_train_test_shared_decoded_RGB": 1,
+  "quantile_order": [
+    "min",
+    "p10",
+    "median",
+    "p90",
+    "max"
+  ]
+}

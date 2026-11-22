@@ -1,0 +1,5 @@
+# Fold-0 channel ablation
+
+Use the existing grayscale and combined-channel fits as controls. Fit two single-channel additions on the same Apple GPU. The triplets are grayscale/grayscale/grayscale, grayscale/CLAHE/grayscale, grayscale/grayscale/Sobel magnitude, and grayscale/CLAHE/Sobel magnitude. All four use the original trainer, data and hyperparameters. This is a one-seed, image-level TN3K development experiment.
+
+Compare each variant with grayscale using paired per-image Dice. Report the effects of adding each component both in isolation and when the other component is present. Estimate their interaction as combined minus contrast minus gradient plus grayscale. Resample images with shared bootstrap draws, keeping all four predictions together. Check surface Dice at 2 pixels, HD95, complete misses, the original training-defined margin and size subgroups, and the existing blinded marker subset as exploratory endpoints. Reload and verify predictions before interpreting results. A reproducible positive development signal across seeds would be needed before committing to a new method.

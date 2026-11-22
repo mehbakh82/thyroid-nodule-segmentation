@@ -1,0 +1,74 @@
+[
+  {
+    "i": 2645,
+    "stratum": "grayscale higher",
+    "A": "gray",
+    "case": 1
+  },
+  {
+    "i": 1485,
+    "stratum": "similar",
+    "A": "contrast",
+    "case": 2
+  },
+  {
+    "i": 2350,
+    "stratum": "contrast higher",
+    "A": "contrast",
+    "case": 3
+  },
+  {
+    "i": 1710,
+    "stratum": "grayscale higher",
+    "A": "contrast",
+    "case": 4
+  },
+  {
+    "i": 535,
+    "stratum": "contrast higher",
+    "A": "gray",
+    "case": 5
+  },
+  {
+    "i": 625,
+    "stratum": "similar",
+    "A": "gray",
+    "case": 6
+  },
+  {
+    "i": 405,
+    "stratum": "contrast higher",
+    "A": "contrast",
+    "case": 7
+  },
+  {
+    "i": 1870,
+    "stratum": "similar",
+    "A": "gray",
+    "case": 8
+  },
+  {
+    "i": 250,
+    "stratum": "contrast higher",
+    "A": "gray",
+    "case": 9
+  },
+  {
+    "i": 1145,
+    "stratum": "grayscale higher",
+    "A": "gray",
+    "case": 10
+  },
+  {
+    "i": 2255,
+    "stratum": "similar",
+    "A": "contrast",
+    "case": 11
+  },
+  {
+    "i": 2475,
+    "stratum": "grayscale higher",
+    "A": "contrast",
+    "case": 12
+  }
+]

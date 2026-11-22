@@ -1,0 +1,1215 @@
+{
+  "as_of": "2026-11-21",
+  "cap": 75,
+  "queries": [
+    {
+      "query": "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+      "retrieved": 75
+    },
+    {
+      "query": "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+      "retrieved": 75
+    },
+    {
+      "query": "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark",
+      "retrieved": 75
+    }
+  ],
+  "unique_dois": 121,
+  "common_dois_with_europepmc": 24,
+  "records": [
+    {
+      "doi": "10.2139/ssrn.5928283",
+      "title": "A Residual Cross-Gated Deeply-Supervised U-Net for Robust Thyroid Nodule Segmentation on TN3K and DDTI Ultrasound Datasets",
+      "year": 2025,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.bspc.2026.110686",
+      "title": "A residual cross-gated deeply-supervised U-Net for robust thyroid nodule segmentation on TN3K and DDTI ultrasound datasets",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.33022/ijcs.v15i4.5218",
+      "title": "Frozen External Validation of a Calibrated, Uncertainty-Aware Swin Transformer for Thyroid Nodule Malignancy Classification on Ultrasound",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1109/iemecon69302.2025.11365920",
+      "title": "Automated Thyroid Nodule Segmentation in Ultrasound Images Using U-Net with ResNet34 Encoder on the DDTI Dataset",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1088/2631-8695/ae8e37",
+      "title": "Dual-branch ConvNeXt-Tiny with Slantlet-inspired multiscale subband fusion for thyroid nodule classification on TN5000 with DDTI external validation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.2139/ssrn.7664932",
+      "title": "Dilated Attention U-Net for Thyroid Nodule Segmentation in Ultrasound Images",
+      "year": 2026,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.patrec.2026.05.010",
+      "title": "DRSGen: Diagnostic-region-guided single-domain generalization for thyroid nodule segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jbi.2025.104963",
+      "title": "Domain adaptation of stable diffusion for ultrasound inpainting: a synthetic data approach for enhanced thyroid nodule segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.2139/ssrn.7674487",
+      "title": "Promptable Segmentation Models for Thyroid Ultrasound Nodule Segmentation: A Reproducible Cross-Dataset Benchmark of Zero-Shot, Few-Shot, and Fully-Supervised Regimes",
+      "year": 2026,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/spicscon69221.2025.11504228",
+      "title": "RCGA-UNet-DS: Residual Cross-Gated Deeply-Supervised U-Net for Thyroid Nodule Segmentation on TN3K",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1109/becithcon69222.2025.11504293",
+      "title": "DuoPath-SPGNet: Dual-Path Strip-Pyramid Gated U-Net for Robust Thyroid Nodule Segmentation on DDTI",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1016/j.cmpb.2020.105329",
+      "title": "A review of thyroid gland segmentation and thyroid nodule segmentation methods for medical ultrasound images",
+      "year": 2020,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/access.2025.3532264",
+      "title": "Thyroid Nodule Ultrasound Image Segmentation Based on Improved Swin Transformer",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/bdcc9100255",
+      "title": "An Overview of AI-Guided Thyroid Ultrasound Image Segmentation and Classification for Nodule Assessment",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-025-34731-8",
+      "title": "EvoThy-Net: an evolutionary encoder-decoder network for thyroid nodule segmentation in ultrasound imaging",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2022.09.017",
+      "title": "A Novel Model of Thyroid Nodule Segmentation for Ultrasound Images",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.53347/rid-21891",
+      "title": "Complete halo sign of thyroid nodule (ultrasound)",
+      "year": 2013,
+      "type": "reference-entry",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.2139/ssrn.4801290",
+      "title": "Pew-Segdiff: Feature Pyramids Edge-Weighted Diffusion Segmentation Model for Ultrasound Thyroid Nodule",
+      "year": 2024,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1186/s40644-026-01149-y",
+      "title": "Comparative evaluation of thyroid nodule ultrasound segmentation models",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/qir.2015.7374892",
+      "title": "Thyroid nodule segmentation using active contour bilateral filtering on ultrasound images",
+      "year": 2015,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pdig.0001797",
+      "title": "Adversarial robustness of deep learning-based thyroid nodule segmentation in ultrasound",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.26226/morressier.5af5cdae738ab1001baf513f",
+      "title": "Risk Stratification of Thyroid Cancer using Thyroid Nodule Ultrasound Classification Systems – A Review Paper",
+      "year": 2018,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/bioengineering11101047",
+      "title": "Mamba- and ResNet-Based Dual-Branch Network for Ultrasound Thyroid Nodule Segmentation",
+      "year": 2024,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/ijcnn64981.2025.11228558",
+      "title": "MS-DDNet: Efficient Multi-Scale Dual Decoder Network for Ultrasound Thyroid Nodule Segmentation",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/978-1-4614-4785-6_15",
+      "title": "Ultrasound-Guided FNA and Molecular Markers for Optimization of Thyroid Nodule Management",
+      "year": 2012,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1117/12.3068457",
+      "title": "A novel thyroid nodule ultrasound image segmentation method based on UNet++",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/i4c69082.2026.11759847",
+      "title": "Segmentation-Oriented Hybrid CNN-Transformer Framework for Thyroid Nodule Detection in Ultrasound Images",
+      "year": 2026,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/books978-3-0365-3759-7",
+      "title": "Risk Stratification of Thyroid Nodule: From Ultrasound Features to TIRADS",
+      "year": 2022,
+      "type": "edited-book",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/icoecit68303.2026.11497418",
+      "title": "A Hybrid Transformer Framework for Text-Visual Thyroid Nodule Segmentation in Ultrasound Diagnostics",
+      "year": 2026,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3389/fpubh.2023.1055815",
+      "title": "Symmetrical awareness network for cross-site ultrasound thyroid nodule segmentation",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1002/jum.16744",
+      "title": "Calibration and Prospective Validation Needed for\n                    <scp>AI</scp>\n                    ‐Assisted Thyroid Nodule Diagnosis",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.3390/math10193484",
+      "title": "Thyroid Nodule Segmentation in Ultrasound Image Based on Information Fusion of Suggestion and Enhancement Networks",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1117/1.jei.35.5.053005",
+      "title": "SAFM-Net: a dual-branch CNN–GNN network with synergistic attention and frequency-domain modulation for ultrasound thyroid nodule segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2022.09.010",
+      "title": "Improving GAN Learning Dynamics for Thyroid Nodule Segmentation",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1097/ruq.0000000000000508",
+      "title": "Ultrasonic Characteristics of Medullary Thyroid Carcinoma",
+      "year": 2021,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/s10278-025-01436-3",
+      "title": "Ultrasound Thyroid Nodule Segmentation Algorithm Based on DeepLabV3+ with EfficientNet",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/s22165984",
+      "title": "Local and Context-Attention Adaptive LCA-Net for Thyroid Nodule Segmentation in Ultrasound Images",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1049/ipr2.70518",
+      "title": "FA‐SSNet: A Frequency‐Aware Semi‐Supervised Network for Thyroid Nodule Segmentation in Ultrasound Images",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/access.2025.3595458",
+      "title": "MFSE-TransUNet: A Thyroid Nodule Ultrasound Image Segmentation Network Integrated With Dynamic Feature Calibration and Edge Enhancement",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1117/12.3112956",
+      "title": "Accurate thyroid nodule segmentation of ultrasound images using improved U-Net",
+      "year": 2026,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1186/2047-2501-1-5",
+      "title": "Segmentation of ultrasound images of thyroid nodule for assisting fine needle aspiration cytology",
+      "year": 2013,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/s12559-024-10289-x",
+      "title": "CIL-Net: Densely Connected Context Information Learning Network for Boosting Thyroid Nodule Segmentation Using Ultrasound Images",
+      "year": 2024,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/978-981-19-8873-8_1",
+      "title": "Misdiagnosis of Thyroid Nodule Calcification",
+      "year": 2023,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.18280/isi.290109",
+      "title": "Swin Transformer and Attention Guided Thyroid Nodule Segmentation on Ultrasound Images",
+      "year": 2024,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1097/ruq.0000000000000476",
+      "title": "Thyroid Image Reporting and Data System Categorization",
+      "year": 2019,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/s40747-026-02484-0",
+      "title": "A dual-branch multi-scale network for thyroid nodule ultrasound image segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3389/frai.2025.1618426",
+      "title": "Thyroid nodule segmentation in ultrasound images using transformer models with masked autoencoder pre-training",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.patrec.2025.10.008",
+      "title": "GCAESeg: Grouped Channel Attention Enhanced network for thyroid nodule segmentation in ultrasound images",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1002/jum.14731",
+      "title": "A Hybrid Multilayer Filtering Approach for Thyroid Nodule Segmentation on Ultrasound Images",
+      "year": 2018,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.patrec.2022.12.015",
+      "title": "A weakly supervised deep active contour model for nodule segmentation in thyroid ultrasound images",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.21037/aot.2020.04.01",
+      "title": "Artificial intelligence for thyroid nodule ultrasound image analysis",
+      "year": 2020,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2023.04.009",
+      "title": "FBN: Weakly Supervised Thyroid Nodule Segmentation Optimized by Online Foreground and Background",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1002/mp.16672",
+      "title": "SK‐Unet++: An improved Unet++ network with adaptive receptive fields for automatic segmentation of ultrasound thyroid nodule images",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1097/01.ruq.0000450894.93586.40",
+      "title": "The Biopsy-Proven Benign Thyroid Nodule",
+      "year": 2014,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-031-72083-3_68",
+      "title": "SHAN: Shape Guided Network for Thyroid Nodule Ultrasound Cross-Domain Segmentation",
+      "year": 2024,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.21276/aimdr.2018.4.4.rd2",
+      "title": "Diagnosis of Malignancy for Thyroid Nodule by Ultrasound Findings: A Cross Sectional Study",
+      "year": 2018,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/ius62466.2026.11774246",
+      "title": "Physics-Informed Latent Diffusion Models for Ultrasound Thyroid Nodule Synthesis",
+      "year": 2026,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.18525/cu.2023.8.1.28",
+      "title": "A Case of Zenker’s Diverticulum Mimicking a Thyroid Nodule",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/bioengineering13070810",
+      "title": "TEM-Net: A Tri-Channel Edge-Aware Multi-Scale Network for Thyroid Nodule Segmentation in Ultrasound Images",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3390/cancers14071668",
+      "title": "Advancements in Ultrasound and Ultrasound-Based Risk Stratification Systems for the Assessment of Thyroid Nodule",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.11106/jkta.2013.6.2.110",
+      "title": "Otolaryngologist-Performed Ultrasound and Ultrasound-Guided Fine Needle Aspiration for Thyroid Nodule and Meaningful Ultrasound Finding",
+      "year": 2013,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1117/12.2659977",
+      "title": "Automatic segmentation of thyroid nodule from ultrasound images using spatial-channel attentive U-Net",
+      "year": 2022,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.2139/ssrn.4443686",
+      "title": "Cil-Net: Densely Connected Context Information Learning Network for Robust Thyroid Nodule Segmentation",
+      "year": 2023,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.3389/fcell.2026.1879094",
+      "title": "Intelligent segmentation of thyroid nodule ultrasound images based on benign–malignant-aware semantic prototype calibration and class-conditional boundary refinement",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/ijcnn60899.2024.10650355",
+      "title": "NFE-Net: Detection and Segmentation of Thyroid Nodules in Ultrasound Images Based on Nodule Feature Enhanced",
+      "year": 2024,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2025.10.122",
+      "title": "ALL-IN-ONE: SURGEON BASED ULTRASOUND TO STREAMLINE THYROID NODULE MANAGEMENT",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.32920/25412656",
+      "title": "Domain Generalization Across Multi-centre Digital Pathology Images for Lymph Node Segmentation and Classification",
+      "year": 2024,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.32920/25412656.v1",
+      "title": "Domain Generalization Across Multi-centre Digital Pathology Images for Lymph Node Segmentation and Classification",
+      "year": 2024,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K"
+      ]
+    },
+    {
+      "doi": "10.1109/lsp.2025.3556789",
+      "title": "CLIP-TNseg: A Multi-Modal Hybrid Framework for Thyroid Nodule Segmentation in Ultrasound Images",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.media.2022.102443",
+      "title": "Thyroid nodule segmentation and classification in ultrasound images through intra- and inter-task consistent learning",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1097/dm-2024-00019",
+      "title": "KTUNet: A hybrid CNN-Transformer with kolmogorov-arnold convolution for thyroid nodule segmentation in ultrasound images",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.4015/s1016237210001803",
+      "title": "AUTOMATIC THYROID NODULE SEGMENTATION AND COMPONENT ANALYSIS IN ULTRASOUND IMAGES",
+      "year": 2010,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/icceic54227.2021.00016",
+      "title": "Ultrasound Thyroid Nodule Segmentation Based On Multi-branch and Color Space Volume",
+      "year": 2021,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.compbiomed.2023.107898",
+      "title": "MLMSeg: A multi-view learning model for ultrasound thyroid nodule segmentation",
+      "year": 2024,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1002/mp.70548",
+      "title": "Ultrasound‐based thyroid nodule segmentation with deep hybrid convolutional network",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation domain generalization external validation DDTI TN3K",
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-026-79727-0",
+      "title": "EffiThy-Net: a lightweight lesion-calibrated and boundary-preserving network for thyroid nodule segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1186/1756-6614-6-s2-a1",
+      "title": "The risk of malignancy of the thyroid nodule/focal lesion – an assessment by ultrasound, based on our own scoring system",
+      "year": 2013,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1177/1742271x261417150",
+      "title": "Application of contrast-enhanced ultrasound to improve the management of microwave thyroid nodule ablation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1109/tbme.2023.3262842",
+      "title": "Joint Segmentation and Differential Diagnosis of Thyroid Nodule in Contrast-Enhanced Ultrasound Images",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.47939/mh.v2i10.111",
+      "title": "Application of Contrast-enhanced Ultrasound in Differential Diagnosis of Benign and Malignant Thyroid Nodule",
+      "year": 2021,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/978-1-4419-8204-9_6",
+      "title": "Segmentation and Skeletonization of 3D Contrast Enhanced Ultrasound Images for the Characterization of Single Thyroid Nodule",
+      "year": 2011,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/s00521-022-07719-y",
+      "title": "Boundary regression-based reep neural network for thyroid nodule segmentation in ultrasound images",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/s10278-026-01910-6",
+      "title": "Contrast-Enhanced VM-UNet for Thyroid Nodule Segmentation Based on Wavelet Features and Dual-Branch Edge Learning",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1016/j.bspc.2024.107346",
+      "title": "PEW-SegDiff: Feature Pyramids Edge-Weighted Diffusion Segmentation model for ultrasound thyroid nodule",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.21203/rs.3.rs-8754736/v1",
+      "title": "Automated Removal of Caliper Annotations from Thyroid Ultrasound Images",
+      "year": 2026,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1016/j.cmpb.2023.107614",
+      "title": "BPAT-UNet: Boundary preserving assembled transformer UNet for ultrasound thyroid nodule segmentation",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2022.04.172",
+      "title": "DIAGNOSTIC ACCURACY OF CONTRAST ENHANCED ULTRASOUND IN MALIGNANT THYROID NODULE – CASE REPORT",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.53347/rid-21889",
+      "title": "Benign thyroid lesion (ultrasound)",
+      "year": 2013,
+      "type": "reference-entry",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.21203/rs.3.rs-11419824/v1",
+      "title": "Deep Learning-Based Breast Ultrasound Lesion Segmentation Using Cross-Scale Attention and Edge-Aware Supervision",
+      "year": 2026,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.64898/2026.10.03.26364633",
+      "title": "UGB-SegNet: Uncertainty-Guided Multi-Scale Attention and Boundary-Aware Learning for Breast Ultrasound Lesion Segmentation",
+      "year": 2026,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1109/coase.2014.6899401",
+      "title": "A variance-reduction method for thyroid nodule boundary detection on ultrasound images",
+      "year": 2014,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.20944/preprints202505.0885.v1",
+      "title": "FEA-Net: End-to-End Frequency-Edge Automation for Ambiguous Lesion Boundary Segmentation in Gastrointestinal and Dermatologic Imaging",
+      "year": 2025,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1109/ius62464.2025.11201519",
+      "title": "Supporting Thyroid Nodule Assessment in Contrast-Enhanced Ultrasound with Implicit Neural Representations",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-026-67386-0",
+      "title": "A boundary-semantic synergy learning network for breast ultrasound lesion segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1016/j.neucom.2021.10.017",
+      "title": "DE-Net: A deep edge network with boundary information for automatic skin lesion segmentation",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.21203/rs.3.rs-4564489/v1",
+      "title": "Enhanced Pediatric Thyroid Ultrasound Image Segmentation Using DC-Contrast U-Net",
+      "year": 2024,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2022.04.035",
+      "title": "LIVER LESION SEGMENTATION IN CONTRAST-ENHANCED ULTRASOUND USING DEEP LEARNING ALGORITHMS",
+      "year": 2022,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1002/9781119575139.ch8",
+      "title": "Marker‐based Segmentation",
+      "year": 2019,
+      "type": "other",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1177/0161734619839648",
+      "title": "A Variance-reduction Approach to Detection of the Thyroid-nodule Boundary on Ultrasound Images",
+      "year": 2019,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1097/00004424-198709000-00019",
+      "title": "2. LIVER-LESION BOUNDARY DETECTION",
+      "year": 1987,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.12659/msm.945793",
+      "title": "Arrival-Time Parametric Imaging in Contrast-Enhanced Ultrasound for Thyroid Nodule Differentiation",
+      "year": 2024,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1049/ipr2.70445",
+      "title": "TCB‐Net: Topology‐Constrained Boundary‐Interior Decoupled Network for Breast Ultrasound Lesion Segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.22541/au.169806615.54495655/v1",
+      "title": "Caliper, contrast enhanced-ultrasound (CEUS) or laser speckle contrast imaging (LSCI): techniques to follow mice melanoma growth",
+      "year": 2023,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/s10044-026-01797-7",
+      "title": "GBKA-Net: a gated Kolmogorov–Arnold network with boundary-guided multi-scale attention for thyroid nodule segmentation",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.7717/peerj.19006",
+      "title": "Role of contrast-enhanced ultrasound with time-intensity curve analysis about thyroid nodule and parenchyma for differentiating BRAF V600E mutation status",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-319-22401-5_3",
+      "title": "The Decision-Making Process for Prophylactic Central Neck Dissection in a Patient Presenting with an Indeterminate Thyroid Nodule on Cytology Assessment: Role of Preoperative Ultrasound and Molecular Marker Testing",
+      "year": 2016,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1109/iseae64934.2025.11042149",
+      "title": "Boundary Attention and Multi-scale Feature Aware Network for Thyroid Nodule Segmentation",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1007/s11042-023-15068-8",
+      "title": "Optimizing CNN based model for thyroid nodule classification using data augmentation, segmentation and boundary detection techniques",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.21037/tcr.2017.09.15",
+      "title": "Quantification of solid hypo-echoic thyroid nodule enhancement with contrast-enhanced ultrasound",
+      "year": 2017,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.1177/02841851261437491",
+      "title": "Diagnostic performance of contrast-enhanced ultrasound for thyroid nodule characterization: a systematic review and meta-analysis",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound lesion segmentation boundary edge contrast marker caliper observer"
+      ]
+    },
+    {
+      "doi": "10.31224/osf.io/fsa3c",
+      "title": "Ultrasound Segmentation of Cervical Muscle during head motion: a Dataset and a Benchmark using Deconvolutional Neural Networks",
+      "year": 2019,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1038/s41597-025-05757-4",
+      "title": "TN5000: An Ultrasound Image Dataset for Thyroid Nodule Detection and Classification",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1109/ccdc65474.2025.11090785",
+      "title": "A Multi-Modal, Multi-Task Thyroid Ultrasound Imaging Dataset for Computer-Aided Thyroid Nodule Diagnosis",
+      "year": 2025,
+      "type": "proceedings-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.2139/ssrn.5649773",
+      "title": "Benchmark Analysis of the HUMS2025 Data Challenge Dataset",
+      "year": 2025,
+      "type": "posted-content",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.12691/ajphr-14-2-5",
+      "title": "ThyroUS-Net: Hybrid CNN with Squeeze-Excitation for Thyroid Nodule Malignancy Classification from Ultrasound",
+      "year": 2026,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ultrasmedbio.2019.07.629",
+      "title": "Current concepts and management of the enigmatic thyroid nodule",
+      "year": 2019,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1097/01.cdr.0000931500.11718.94",
+      "title": "Thyroid Nodule Classification by Ultrasound: TI-RADS A to Z",
+      "year": 2023,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1089/thy.2011.0015",
+      "title": "Ultrasound Mirror Artifact of a Thyroid Nodule by Trachea Mimicking a Tracheal Mass",
+      "year": 2011,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1089/thy.2005.15.1169",
+      "title": "Interobserver Variation for Ultrasound Determination of Thyroid Nodule Volumes",
+      "year": 2005,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-319-44100-9_11",
+      "title": "Feature Illustration: Thyroid Nodule Margins and Extrathyroidal Extension and Invasion",
+      "year": 2017,
+      "type": "book-chapter",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    },
+    {
+      "doi": "10.1016/j.bspc.2025.107971",
+      "title": "Ultrasound image segmentation of thyroid nodule via latent semantic feature co-registration",
+      "year": 2025,
+      "type": "journal-article",
+      "queries": [
+        "thyroid nodule ultrasound segmentation dataset cine public challenge benchmark"
+      ]
+    }
+  ]
+}

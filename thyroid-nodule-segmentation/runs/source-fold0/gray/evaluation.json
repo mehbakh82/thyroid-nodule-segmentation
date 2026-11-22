@@ -1,0 +1,9 @@
+{
+  "run_key": "b6d14b3918f38d30df85a7956fa3f10c5fb43d3311f4ea3ded1499ee294d47b8",
+  "initial_sha256": "cb94cd02af09afeb0b4b19f0041a20f0f6e99dfcb6522631c7ba556372fbe2d0",
+  "arm": "gray",
+  "parameters": 22564369,
+  "epochs": 12,
+  "predictions_sha256": "e352afd8970ed3a19266f24afa75a2a7f9592416bc62cc2dfa8b52082370fcbe",
+  "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364"
+}

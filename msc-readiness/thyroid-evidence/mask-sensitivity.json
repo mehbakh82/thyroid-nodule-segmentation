@@ -1,0 +1,32 @@
+{
+  "quantile_boundaries": [
+    0.03335395103967513,
+    0.21151418046275106
+  ],
+  "all": {
+    "n": 2879,
+    "median_self_dice": {
+      "max_only": 0.9433892679328785,
+      "above_63": 1.0,
+      "above_191": 1.0
+    }
+  },
+  "smallest_quartile": {
+    "n": 720,
+    "median_self_dice": {
+      "max_only": 0.8765805427262936,
+      "above_63": 1.0,
+      "above_191": 1.0
+    }
+  },
+  "largest_quartile": {
+    "n": 720,
+    "median_self_dice": {
+      "max_only": 0.9727027767371301,
+      "above_63": 1.0,
+      "above_191": 1.0
+    }
+  },
+  "reference": "grayscale >127",
+  "split": "trainval"
+}

@@ -1,0 +1,11 @@
+{
+  "images": 7,
+  "radius_px": 4,
+  "gray": 120,
+  "edge": 167,
+  "background": 586,
+  "n_points": 20,
+  "more_false_foreground": 5,
+  "less_false_foreground": 0,
+  "equal": 2
+}
