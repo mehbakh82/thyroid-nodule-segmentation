@@ -1,0 +1,125 @@
+{
+  "dataset": "zxg3017/TNUI-2021-",
+  "revision": "5fa417629f581d82017eed535cdd62586717b669",
+  "salt": "tnui-codec-v1/",
+  "split": "train",
+  "selected": 48,
+  "eligible": 48,
+  "exclusions": {},
+  "sample_sha256": "171afb7852a280409673cc8f1a965994747821977a643502acd9780e9cd6a39d",
+  "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364",
+  "tn3k_most_common_luminance_table": [
+    2,
+    1,
+    1,
+    2,
+    2,
+    4,
+    5,
+    6,
+    1,
+    1,
+    1,
+    2,
+    3,
+    6,
+    6,
+    6,
+    1,
+    1,
+    2,
+    2,
+    4,
+    6,
+    7,
+    6,
+    1,
+    2,
+    2,
+    3,
+    5,
+    9,
+    8,
+    6,
+    2,
+    2,
+    4,
+    6,
+    7,
+    11,
+    10,
+    8,
+    2,
+    4,
+    6,
+    6,
+    8,
+    10,
+    11,
+    9,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    12,
+    10,
+    7,
+    9,
+    10,
+    10,
+    11,
+    10,
+    10,
+    10
+  ],
+  "table_occurrences": 2879,
+  "tn3k_development_masks": 2879,
+  "overall": {
+    "png": {
+      "gray_flip_region_dice": 0.43234515269706025,
+      "gray_flip_surface2": 0.2846003927598168,
+      "erosion_change_points": {
+        "mean": 2.4820756697080157,
+        "interval": [
+          -0.07845775167374135,
+          5.216313921343123
+        ]
+      },
+      "median_native_mask_agreement": 1.0
+    },
+    "jpeg_halfmax": {
+      "gray_flip_region_dice": 0.43234515269706025,
+      "gray_flip_surface2": 0.2846003927598168,
+      "erosion_change_points": {
+        "mean": 2.4820756697080157,
+        "interval": [
+          -0.07845775167374135,
+          5.216313921343123
+        ]
+      },
+      "median_native_mask_agreement": 1.0
+    },
+    "jpeg_only255": {
+      "gray_flip_region_dice": 0.4230573909680948,
+      "gray_flip_surface2": 0.2820203120850268,
+      "erosion_change_points": {
+        "mean": 4.269234182828176,
+        "interval": [
+          1.8852984272089366,
+          6.893200148189382
+        ]
+      },
+      "median_native_mask_agreement": 0.9720440892330081
+    }
+  },
+  "paired_change_in_erosion_effect_strict_minus_png_points": {
+    "mean": 1.7871585131201595,
+    "interval": [
+      1.0828317481406833,
+      2.585727156529329
+    ]
+  },
+  "per_image_opposite_signs": 6
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation/blob/a2f11b4f3e5cb79b85d1472b6ba489499eef47e7/picture/trainval-mask.rar",
+  "github_archive_sha256": "03f362a4e59c9aff8e1948f014a91886bcfc0a4f7b12e16e43bb7357bfae4a08",
+  "matched_per_file_sha256": 2879,
+  "compared_with": "TN3K author Hugging Face archive at c0479e921fc9b7afcf1e8ca9b296a408e06a5bb9, verified local development manifest",
+  "mask_format": "JPEG"
+}

@@ -1,0 +1,14 @@
+{
+  "geometry_sha256": "9aa958cf44224bc77536313d374825ffa7d7a07709e57cb471bc8dca747404f6",
+  "reviewed_pairs": 76,
+  "basis": "Image and two reference outlines only. Nonclinical visual screen before model scoring. A is the smaller numeric release ID. Geometric flags remain in the flagged stratum.",
+  "visual_flags": {
+    "P05": "One outline includes a distinct rightward protrusion and the other cuts across its base.",
+    "P30": "Small superior target versus a much larger enclosing region. Intended extent unclear.",
+    "P34": "One outline includes a long lateral extension past the shared central target.",
+    "P37": "Contours cross; one omits the inferior portion of the small region.",
+    "P54": "Nested offset outlines encompass materially different extents of a small region.",
+    "P55": "One outline includes a substantial inferior portion omitted from the other.",
+    "P58": "Superior wide and lower compact outlines cover different extents; target correspondence unclear."
+  }
+}

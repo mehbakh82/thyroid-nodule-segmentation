@@ -1,0 +1,173 @@
+{
+  "archive_sha256": "da8996ea93cd49b1269a3906098e61c859800d9f2f9ff16f1f73b36d8eb2e284",
+  "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364",
+  "filter_sha256": "6b7b0ac9f3f42367ccbd5565b0b307372ee90c59875db1829cb4f90923dff4ed",
+  "protocol_sha256": "cf8049b47bf294dabe8f96cd719951a8fe9cd6b96d93bd8c7a5e2bf2791a3bd1",
+  "code_sha256": "fb738d3d1212be77ae5f953d2cd1316779f1ceb504962dc0d7c4ae3711dc80a7",
+  "audit_sha256": "caa198ec33dc330a632dacaa302da9b52950f6ee98e3d7018237dc4646c12510",
+  "sample_sha256": "4607f94c0bca0eb31b25a72aadb31292569edfbd802894b2d36f657bd85547f1",
+  "per_image_sha256": "df9f94dd9a4b67a6560ba5c99e72f442f84103cf5910a7371c12cd91501dc728",
+  "fixed_fractions": [
+    0.09871794871794871,
+    0.9128205128205128
+  ],
+  "inventory": 3644,
+  "repeated_ids": 0,
+  "exclusions": {},
+  "unique_images": 3568,
+  "repeated_rasters": 76,
+  "conflicting_mask_groups": 76,
+  "source_overlap_unique": 0,
+  "tnui_overlap_unique": 0,
+  "eligible_for_inference": 3568,
+  "native_sizes": 1601,
+  "most_common_sizes": [
+    {
+      "width": 610,
+      "height": 477,
+      "n": 112
+    },
+    {
+      "width": 504,
+      "height": 480,
+      "n": 99
+    },
+    {
+      "width": 760,
+      "height": 600,
+      "n": 89
+    },
+    {
+      "width": 508,
+      "height": 480,
+      "n": 81
+    },
+    {
+      "width": 1031,
+      "height": 660,
+      "n": 75
+    },
+    {
+      "width": 896,
+      "height": 660,
+      "n": 62
+    }
+  ],
+  "modes": {
+    "L": 3644
+  },
+  "mask_values": {
+    "255": 3644
+  },
+  "all_safety": {
+    "n": 3644,
+    "trimmed": 3139,
+    "target": 120341907,
+    "outside": 211681,
+    "affected": 15,
+    "above_one_percent": 14,
+    "above_five_percent": 9,
+    "retained_fraction": 0.99824100344363,
+    "max_loss": 0.44012915410155656
+  },
+  "unique_safety": {
+    "n": 3568,
+    "trimmed": 3072,
+    "target": 115983469,
+    "outside": 166934,
+    "affected": 13,
+    "above_one_percent": 12,
+    "above_five_percent": 7,
+    "retained_fraction": 0.9985607086816829,
+    "max_loss": 0.44012915410155656
+  },
+  "boundary_safety": {
+    "n": 24,
+    "trimmed": 18,
+    "target": 2211570,
+    "outside": 211681,
+    "affected": 15,
+    "above_one_percent": 14,
+    "above_five_percent": 9,
+    "retained_fraction": 0.9042847388958974,
+    "max_loss": 0.44012915410155656
+  },
+  "other_safety": {
+    "n": 3620,
+    "trimmed": 3121,
+    "target": 118130337,
+    "outside": 0,
+    "affected": 0,
+    "above_one_percent": 0,
+    "above_five_percent": 0,
+    "retained_fraction": 1.0,
+    "max_loss": 0.0
+  },
+  "sample_boundary": 1,
+  "performance": {
+    "n": 160,
+    "arms": {
+      "whole": {
+        "mean_dice": 0.7966366150166843,
+        "mean_sensitivity": 0.8296020990798161,
+        "misses": 7,
+        "fp": 507990,
+        "tp": 4637697
+      },
+      "adaptive": {
+        "mean_dice": 0.7975037221102734,
+        "mean_sensitivity": 0.8296020990798161,
+        "misses": 7,
+        "fp": 499890,
+        "tp": 4637697
+      },
+      "fixed": {
+        "mean_dice": 0.7975534309999566,
+        "mean_sensitivity": 0.8295635861438442,
+        "misses": 7,
+        "fp": 496821,
+        "tp": 4636894
+      }
+    },
+    "differences": {
+      "adaptive_minus_whole": {
+        "mean_points": 0.08671070935891065,
+        "ci_points": [
+          0.0,
+          0.25977707623378066
+        ],
+        "improved": 2,
+        "worsened": 0,
+        "tied": 158,
+        "removed_fp": 8100,
+        "removed_tp": 0
+      },
+      "fixed_minus_whole": {
+        "mean_points": 0.09168159832723027,
+        "ci_points": [
+          0.0003986854654731975,
+          0.2678468187171852
+        ],
+        "improved": 5,
+        "worsened": 0,
+        "tied": 155,
+        "removed_fp": 11169,
+        "removed_tp": 803
+      },
+      "adaptive_minus_fixed": {
+        "mean_points": -0.004970888968319626,
+        "ci_points": [
+          -0.012899104248160348,
+          0.0
+        ],
+        "improved": 0,
+        "worsened": 3,
+        "tied": 157,
+        "removed_fp": -3069,
+        "removed_tp": -803
+      }
+    }
+  },
+  "safety_criterion_met": false,
+  "performance_criterion_met": false
+}

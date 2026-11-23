@@ -1,0 +1,35 @@
+{
+  "images": 48,
+  "median_native_area_fraction": 0.016872123602892836,
+  "levels": {
+    "224": {
+      "dice": 0.43234515269706025,
+      "surface2": 0.2846003927598168,
+      "zero_overlap": 2
+    },
+    "448": {
+      "dice": 0.35254185216008654,
+      "surface2": 0.18029578836951307,
+      "zero_overlap": 1
+    }
+  },
+  "paired_change_points": {
+    "dice": {
+      "mean": -7.9803300536973625,
+      "interval": [
+        -14.245399604557125,
+        -1.8756471609742615
+      ]
+    },
+    "surface2": {
+      "mean": -10.430460439030373,
+      "interval": [
+        -15.548989983040304,
+        -5.836132266493532
+      ]
+    }
+  },
+  "gains": 22,
+  "losses": 25,
+  "baseline_score_receipt": "0e39aec27aa8193db5925e732a22b2d991cdf4089d1b4f30c2ac0424d3a5e8db"
+}

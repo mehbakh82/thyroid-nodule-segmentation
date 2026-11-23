@@ -1,6 +1,8 @@
 """Verify model-run receipts and recompute the headline development scores using the Python standard library."""
 import json
 import math
+import subprocess
+import sys
 from pathlib import Path
 from statistics import fmean
 from zipfile import ZipFile
@@ -63,3 +65,4 @@ def verify():
 
 if __name__ == '__main__':
     verify()
+    subprocess.run([sys.executable, str(PROJECT/'margin-study/verify_case_results.py')], check=True)

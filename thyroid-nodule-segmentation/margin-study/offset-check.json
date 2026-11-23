@@ -1,0 +1,26 @@
+{
+  "above127": {
+    "n": 534,
+    "delta_surface_dice_points": {
+      "shrink_one": -1.9407552306355966,
+      "grow_one": -2.719939483210745
+    }
+  },
+  "only255": {
+    "n": 534,
+    "delta_surface_dice_points": {
+      "shrink_one": 4.025233049163092,
+      "grow_one": -6.757525879629775
+    }
+  },
+  "decoding_geometry": {
+    "removed_foreground_pixels": 241355,
+    "removed_now_enclosed_background": 36910,
+    "removed_farther_than_four_pixels_from_background": 26473,
+    "localized_images_with_newly_enclosed_background": 533
+  },
+  "shrink_one_delta_after_filling_reference_holes_points": {
+    "above127": -1.940394507146033,
+    "only255": 3.4730540279854187
+  }
+}

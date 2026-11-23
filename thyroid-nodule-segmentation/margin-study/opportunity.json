@@ -1,0 +1,20 @@
+{
+  "all": {
+    "n": 576,
+    "baseline_mean_region_dice": 0.8220884130294905,
+    "oracle_mean_region_dice": 0.8990050551726808,
+    "oracle_region_dice_headroom_points": 7.691664214319031,
+    "in_band_incorrect_pixels": 352497,
+    "total_incorrect_pixels": 896646,
+    "fraction_errors_in_band": 0.3931283918068
+  },
+  "localized": {
+    "n": 534,
+    "baseline_mean_region_dice": 0.8683673805686691,
+    "oracle_mean_region_dice": 0.9448072133286782,
+    "oracle_region_dice_headroom_points": 7.643983276000917,
+    "in_band_incorrect_pixels": 326770,
+    "total_incorrect_pixels": 684434,
+    "fraction_errors_in_band": 0.4774309867715514
+  }
+}

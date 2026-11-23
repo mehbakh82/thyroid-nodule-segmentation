@@ -1,6 +1,6 @@
 # Thyroid nodule segmentation on ultrasound
 
-An MSc thesis feasibility study by Mehran Bakhtiari comparing grayscale, contrast-enhanced and gradient inputs for automatic nodule segmentation on TN3K. The experiments use a matched ResNet34 U-Net, 2,303 training images and 576 fold-0 validation images, with one optimization seed. The accompanying DDTI work covers cohort preparation. External model evaluation is pending.
+An MSc thesis feasibility study by Mehran Bakhtiari comparing grayscale, contrast-enhanced and gradient inputs for automatic nodule segmentation on TN3K. The experiments use a matched ResNet34 U-Net, 2,303 training images and 576 fold-0 validation images, with one optimization seed. The accompanying DDTI work covers cohort preparation. Frozen-model development checks also cover two additional thyroid ultrasound datasets.
 
 | TN3K development comparison | Mean foreground Dice |
 |---|---:|
@@ -12,6 +12,21 @@ An MSc thesis feasibility study by Mehran Bakhtiari comparing grayscale, contras
 | Grayscale with horizontal-flip averaging, two passes | 0.8221 |
 
 Flip averaging improved Dice by 0.71 points over single-pass grayscale (paired 95% image-bootstrap interval +0.38 to +1.10). The audit also found that different decoding rules for the JPEG reference masks particularly affect small nodules. These are exploratory, image-level development results. Reliable patient identifiers and external performance are open questions. [Stage audit](thyroid-nodule-segmentation/STAGE-AUDIT.md) · [One-page summary](thyroid-nodule-segmentation/results/supervisor-meeting-summary.pdf)
+
+## Follow-up experiments
+
+The completed follow-ups use TN3K, TNUI-2021 and TN-SCUI2020 development data. DDTI remains reserved for external model evaluation.
+
+| Question | Evidence |
+|---|---|
+| Can a local model correct the segmentation margin? | Five methods were compared on 576 TN3K validation scans. On 534 localized nodules, selective correction gained 0.009 surface-Dice points. Eroding predictions by one pixel changed the sign of the mean benefit across two JPEG decoding rules. [Margin study](thyroid-nodule-segmentation/margin-study/README.md) |
+| Can encoding or input scale explain a boundary gain? | On 48 TNUI scans a strict JPEG foreground rule increased the apparent erosion gain by 1.79 points. Increasing input size from 224 to 448 reduced mean region Dice by 7.98 points. [Encoding and scale](thyroid-nodule-segmentation/margin-study/tnui-control/README.md) |
+| Do location and display borders affect transfer? | In 96 TNUI scans, a reference-centered crop improved Dice by 12.82 points over a central crop. An image-only border filter gained 32.19 points on a further 48 scans. [Localization, controls and replication](thyroid-nodule-segmentation/margin-study/tnui-location/README.md) |
+| Does that filter transfer to another acquisition? | The gain was 0.087 Dice points on 160 TN-SCUI2020 scans. Across all 3,644 training records, nine lost more than 5% of the annotated area. A follow-up on 24 boundary records found six worsened predictions. [Transfer audit](thyroid-nodule-segmentation/margin-study/tnscui-transfer/README.md) |
+| Does the choice of outline change the conclusion? | Of 76 scans with two outlines, 69 appeared to depict the same target. A one-pixel edit had opposite effects of at least two surface-Dice points on 12 of those scans. [Paired-reference experiment](thyroid-nodule-segmentation/margin-study/paired-references/README.md) |
+| Can either trained model win? | On the same 69 scans, the attainable mean difference for the three-channel U-Net versus grayscale was −2.46 to +4.84 surface-Dice points and +0.16 to +1.32 region-Dice points. Both uniform reference choices favored the three-channel model. [Frozen model comparison](thyroid-nodule-segmentation/margin-study/paired-references/MODEL-RANKING.md) |
+
+The public case tables support independent score checks without downloading ultrasound images. The 12-case blinded TN3K kit is ready for independent tracing. Reader findings are pending. [Case-level results and replay order](thyroid-nodule-segmentation/margin-study/case-results/README.md) · [Tracing kit and instructions](thyroid-nodule-segmentation/margin-study/READER-COMPARISON.md)
 
 ## Explore the study
 

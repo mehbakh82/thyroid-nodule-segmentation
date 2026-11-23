@@ -1,0 +1,162 @@
+{
+  "n": 96,
+  "methods": {
+    "whole": {
+      "dice": 0.44378441816602643,
+      "sensitivity": 0.828959460659763,
+      "fp_per_target": 7.3557735768539345,
+      "surface_dice": 0.1077741615804328,
+      "hd95": 343.8083628994422,
+      "misses": 3,
+      "at_least_half_dice": 41
+    },
+    "center": {
+      "dice": 0.6448661494308415,
+      "sensitivity": 0.6619518060203706,
+      "fp_per_target": 0.6443087530978299,
+      "surface_dice": 0.16864276744720663,
+      "hd95": 90.23446624456447,
+      "misses": 10,
+      "at_least_half_dice": 71
+    },
+    "oracle": {
+      "dice": 0.7731008622932296,
+      "sensitivity": 0.8810524799873622,
+      "fp_per_target": 0.5695438808336653,
+      "surface_dice": 0.20988201021558442,
+      "hd95": 66.363145982495,
+      "misses": 0,
+      "at_least_half_dice": 84
+    },
+    "automatic": {
+      "dice": 0.4933923350104623,
+      "sensitivity": 0.7008848622459221,
+      "fp_per_target": 2.348468301065178,
+      "surface_dice": 0.12259243047025552,
+      "hd95": 222.44035689072885,
+      "misses": 8,
+      "at_least_half_dice": 44
+    },
+    "clipped_whole": {
+      "dice": 0.7760642721682997,
+      "sensitivity": 0.8272122503709362,
+      "fp_per_target": 0.37187325860814546,
+      "surface_dice": 0.20099974655951924,
+      "hd95": 78.45883314065404,
+      "misses": 3,
+      "at_least_half_dice": 86
+    }
+  },
+  "comparisons": {
+    "oracle_minus_center": {
+      "mean_points": 12.823471286238798,
+      "ci_points": [
+        6.336769983563005,
+        19.681613600778935
+      ],
+      "median_points": 1.5940231498368318,
+      "improved": 62,
+      "worse": 34
+    },
+    "oracle_minus_whole": {
+      "mean_points": 32.93164441272032,
+      "ci_points": [
+        26.617422860617435,
+        39.20481081652387
+      ],
+      "median_points": 31.572340415548602,
+      "improved": 79,
+      "worse": 17
+    },
+    "center_minus_whole": {
+      "mean_points": 20.108173126481514,
+      "ci_points": [
+        10.308597353036873,
+        29.515788692766925
+      ],
+      "median_points": 25.35472432092309,
+      "improved": 59,
+      "worse": 36
+    },
+    "automatic_minus_whole": {
+      "mean_points": 4.960791684443581,
+      "ci_points": [
+        1.4872240417692606,
+        8.274531585809326
+      ],
+      "median_points": 3.4532292811782703,
+      "improved": 60,
+      "worse": 35
+    },
+    "automatic_minus_center": {
+      "mean_points": -15.147381442037934,
+      "ci_points": [
+        -24.28797899119418,
+        -5.834325250228641
+      ],
+      "median_points": -17.689344993007268,
+      "improved": 33,
+      "worse": 61
+    },
+    "oracle_minus_automatic": {
+      "mean_points": 27.97085272827673,
+      "ci_points": [
+        21.450363750388117,
+        34.53485213802824
+      ],
+      "median_points": 14.020258116795151,
+      "improved": 73,
+      "worse": 22
+    },
+    "clipped_whole_minus_whole": {
+      "mean_points": 33.22798540022732,
+      "ci_points": [
+        27.14088205219866,
+        39.352214273686094
+      ],
+      "median_points": 28.89453103252844,
+      "improved": 68,
+      "worse": 1
+    },
+    "oracle_minus_clipped_whole": {
+      "mean_points": -0.2963409875070026,
+      "ci_points": [
+        -3.2444560343294984,
+        2.973590196889587
+      ],
+      "median_points": -0.5749465957280431,
+      "improved": 43,
+      "worse": 53
+    }
+  },
+  "coverage": {
+    "center": {
+      "mean": 0.8178960749565144,
+      "fully_contains_target": 46,
+      "excludes_entire_target": 2
+    },
+    "oracle": {
+      "mean": 0.9973788250521395,
+      "fully_contains_target": 91,
+      "excludes_entire_target": 0
+    },
+    "automatic": {
+      "mean": 0.8714955652208509,
+      "fully_contains_target": 60,
+      "excludes_entire_target": 2
+    }
+  },
+  "advance_localization_opportunity": true,
+  "auto_center_fallback": 1,
+  "selected": 96,
+  "exclusions": {},
+  "area_fraction_median": 0.016235207100591717,
+  "sizes": {
+    "780x780": 96
+  },
+  "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364",
+  "sample_sha256": "9890478376b0a0389d5cdc8121b32d75606c05c91a3f7c706baf4c1988936df5",
+  "per_image_sha256": "902dc553796fc61174cc2af0124bf9ae48611fb27c712beb136e9fd3219b13d2",
+  "protocol_sha256": "67910b4c000ce5b12b95b4cfcaa4bd9b0637edf3107a5bc77d89e89137c2eff5",
+  "code_sha256": "8411dfc51802b360bd4019a8250ad0bb59ccda9782c6cefa1d568a8d19ed81bb"
+}

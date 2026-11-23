@@ -1,0 +1,33 @@
+{
+  "n": 96,
+  "any_removed_rows": 96,
+  "affected_references": 0,
+  "target_pixels": 1809888,
+  "target_pixels_outside": 0,
+  "true_positives_removed": 0,
+  "whole_fp": 4363685,
+  "false_positives_removed": 4135748,
+  "fraction_whole_fp_removed": 0.9477650197023846,
+  "mean_dice": 0.8035448753484687,
+  "mean_surface_dice": 0.21596716886150233,
+  "misses": 3,
+  "vs_whole": {
+    "mean": 35.97604571824423,
+    "ci": [
+      29.877397485564252,
+      41.98467035537308
+    ],
+    "improved": 66,
+    "worse": 0
+  },
+  "vs_central": {
+    "mean": 15.867872591762714,
+    "ci": [
+      9.783188594044123,
+      22.190002384977717
+    ],
+    "improved": 71,
+    "worse": 24
+  },
+  "primary_per_image_sha256": "902dc553796fc61174cc2af0124bf9ae48611fb27c712beb136e9fd3219b13d2"
+}

@@ -1,0 +1,261 @@
+{
+  "pairs": 76,
+  "unscorable": 0,
+  "class_conflicts": 0,
+  "mask_dice": {
+    "min": 0.18181630546955624,
+    "q25": 0.8984310164304008,
+    "median": 0.9306023878879353,
+    "q75": 0.9537255166101951,
+    "max": 0.9805603430999238
+  },
+  "subsets": {
+    "all": {
+      "surface_delta": {
+        "n": 76,
+        "outcomes": {
+          "both improve": 22,
+          "both worsen": 26,
+          "opposite": 23,
+          "tie involved": 5
+        },
+        "reversal_min_points": {
+          "1": 16,
+          "2": 12,
+          "5": 4
+        },
+        "reversal_strength_points": {
+          "min": 0.15016988492568828,
+          "q25": 0.9907561839012036,
+          "median": 2.0814357521168585,
+          "q75": 3.3864491933163237,
+          "max": 7.617129816082702
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.0,
+          "q25": 2.1743977107430505,
+          "median": 4.991344336057018,
+          "q75": 8.155837218755293,
+          "max": 27.400306699206933
+        },
+        "mean_delta_across_both_references": -0.8313484045552685
+      },
+      "region_delta": {
+        "n": 76,
+        "outcomes": {
+          "both improve": 21,
+          "both worsen": 37,
+          "opposite": 14,
+          "tie involved": 4
+        },
+        "reversal_min_points": {
+          "1": 1,
+          "2": 0,
+          "5": 0
+        },
+        "reversal_strength_points": {
+          "min": 0.033671519136335704,
+          "q25": 0.11923047936518716,
+          "median": 0.25640904229847217,
+          "q75": 0.44317047004548416,
+          "max": 1.4371865909511672
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.0,
+          "q25": 0.148931020024215,
+          "median": 0.5710711979109717,
+          "q75": 1.179878745877061,
+          "max": 5.997858999162897
+        },
+        "mean_delta_across_both_references": -0.6326919712215012
+      }
+    },
+    "apparent_same_target": {
+      "surface_delta": {
+        "n": 69,
+        "outcomes": {
+          "both improve": 20,
+          "both worsen": 23,
+          "opposite": 21,
+          "tie involved": 5
+        },
+        "reversal_min_points": {
+          "1": 15,
+          "2": 12,
+          "5": 4
+        },
+        "reversal_strength_points": {
+          "min": 0.15016988492568828,
+          "q25": 0.998821133854888,
+          "median": 2.103154147660402,
+          "q75": 3.7723171602449703,
+          "max": 7.617129816082702
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.0,
+          "q25": 2.466068335695171,
+          "median": 5.351867984680927,
+          "q75": 8.167226446032453,
+          "max": 27.400306699206933
+        },
+        "mean_delta_across_both_references": -0.9268877749610003
+      },
+      "region_delta": {
+        "n": 69,
+        "outcomes": {
+          "both improve": 18,
+          "both worsen": 34,
+          "opposite": 13,
+          "tie involved": 4
+        },
+        "reversal_min_points": {
+          "1": 0,
+          "2": 0,
+          "5": 0
+        },
+        "reversal_strength_points": {
+          "min": 0.033671519136335704,
+          "q25": 0.11728563828687921,
+          "median": 0.2193197874395092,
+          "q75": 0.3811529926970092,
+          "max": 0.5274765973235951
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.0,
+          "q25": 0.14964755563030563,
+          "median": 0.5686090975893232,
+          "q75": 0.9255476687867858,
+          "max": 5.997858999162897
+        },
+        "mean_delta_across_both_references": -0.610199900041428
+      }
+    },
+    "flagged": {
+      "surface_delta": {
+        "n": 7,
+        "outcomes": {
+          "both improve": 2,
+          "both worsen": 3,
+          "opposite": 2,
+          "tie involved": 0
+        },
+        "reversal_min_points": {
+          "1": 1,
+          "2": 0,
+          "5": 0
+        },
+        "reversal_strength_points": {
+          "min": 0.3907203907203921,
+          "q25": 0.6272932641778161,
+          "median": 0.8638661376352399,
+          "q75": 1.1004390110926638,
+          "max": 1.3370118845500878
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.31460161737776327,
+          "q25": 1.3406666505114113,
+          "median": 2.5855935520406224,
+          "q75": 4.256564648496511,
+          "max": 9.027064116957048
+        },
+        "mean_delta_across_both_references": 0.11039681801551669
+      },
+      "region_delta": {
+        "n": 7,
+        "outcomes": {
+          "both improve": 3,
+          "both worsen": 3,
+          "opposite": 1,
+          "tie involved": 0
+        },
+        "reversal_min_points": {
+          "1": 1,
+          "2": 0,
+          "5": 0
+        },
+        "reversal_strength_points": {
+          "min": 1.4371865909511672,
+          "q25": 1.4371865909511672,
+          "median": 1.4371865909511672,
+          "q75": 1.4371865909511672,
+          "max": 1.4371865909511672
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.06760903117961625,
+          "q25": 0.2727086288820957,
+          "median": 1.3458455223190806,
+          "q75": 1.82316640126286,
+          "max": 4.549911682732077
+        },
+        "mean_delta_across_both_references": -0.8543995299965091
+      }
+    },
+    "localized_same_target": {
+      "surface_delta": {
+        "n": 60,
+        "outcomes": {
+          "both improve": 20,
+          "both worsen": 22,
+          "opposite": 17,
+          "tie involved": 1
+        },
+        "reversal_min_points": {
+          "1": 12,
+          "2": 10,
+          "5": 4
+        },
+        "reversal_strength_points": {
+          "min": 0.15016988492568828,
+          "q25": 0.998821133854888,
+          "median": 2.2335172214301977,
+          "q75": 3.9203733806216445,
+          "max": 7.617129816082702
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.0,
+          "q25": 2.702450181168893,
+          "median": 5.540758684311307,
+          "q75": 8.419255862475456,
+          "max": 27.400306699206933
+        },
+        "mean_delta_across_both_references": -0.9415904023227074
+      },
+      "region_delta": {
+        "n": 60,
+        "outcomes": {
+          "both improve": 18,
+          "both worsen": 29,
+          "opposite": 13,
+          "tie involved": 0
+        },
+        "reversal_min_points": {
+          "1": 0,
+          "2": 0,
+          "5": 0
+        },
+        "reversal_strength_points": {
+          "min": 0.033671519136335704,
+          "q25": 0.11728563828687921,
+          "median": 0.2193197874395092,
+          "q75": 0.3811529926970092,
+          "max": 0.5274765973235951
+        },
+        "absolute_difference_of_deltas": {
+          "min": 0.022169943219396693,
+          "q25": 0.18018505419463426,
+          "median": 0.5784617883750953,
+          "q75": 1.0261572242505594,
+          "max": 5.997858999162897
+        },
+        "mean_delta_across_both_references": -0.4866449472908206
+      }
+    }
+  },
+  "prioritize_tracing": true,
+  "archive_sha256": "da8996ea93cd49b1269a3906098e61c859800d9f2f9ff16f1f73b36d8eb2e284",
+  "checkpoint_sha256": "43cf92a344456ab83da5f80691852a95251f61f73699738668b6560f3fe45364",
+  "protocol_sha256": "256d42886256752da7d38e18adb92d3c4da3b17d9bf0c0dc0cf15ac8df4a77f2",
+  "visual_review_sha256": "a7d3a0f9d74a9125ac82c168bd3761de2ae772caac5c08cc49e7e0a372d0d73d",
+  "code_sha256": "2f51cdf7432a3b9b1172fd557cc4787e426bc73fee239e00eac89c19d17b7215",
+  "per_pair_sha256": "c0aec026636b6af5bfcf5e2c2626906bb55a3f6b7a3a6173e3e2da31889323ee"
+}

@@ -4,6 +4,8 @@ A paired source-development comparison of a grayscale ResNet34 U-Net and the sam
 
 The [pre-meeting research audit](STAGE-AUDIT.md) covers the implemented baselines, CPU fusion control, marker intervention, reproducibility checks and remaining thesis decisions.
 
+The [follow-up experiment index](../README.md#follow-up-experiments) covers selective correction, reference encoding, localization, display-field transfer and model ranking. [Case tables and replay order](margin-study/case-results/README.md)
+
 ## Reproduction
 
 Use Python 3.12. The cache in this workspace was produced using NumPy 2.5.5, SciPy 1.18.1, scikit-image 0.26.0 and Pillow 13.0.0. Training used PyTorch 2.9.1, torchvision 0.24.1, NumPy 2.2.6, Pillow 11.3.0 and OpenCV headless 4.12.0.88. Evaluation uses NumPy, SciPy and Pillow. The PDF generator also uses ReportLab. Per-image predictions, review materials and audit records are included here. To restore the original model parameters, use the [checkpoint download instructions](../README.md#restore-the-four-original-checkpoints).

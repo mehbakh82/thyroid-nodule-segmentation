@@ -1,0 +1,19 @@
+{
+  "records": 24,
+  "distinct_images": 22,
+  "overlapping_primary_records": 1,
+  "records_losing_true_positives": 6,
+  "distinct_images_losing_true_positives": 5,
+  "removed_tp": 54541,
+  "removed_fp": 114,
+  "new_misses": 0,
+  "dice_improved": 0,
+  "dice_worsened": 6,
+  "dice_unchanged": 18,
+  "worst_change_points": -28.07978624782732,
+  "baseline_mean_dice": 0.6744219593080505,
+  "adaptive_mean_dice": 0.6526062208537535,
+  "mean_change_points": -2.1815738454296936,
+  "primary_result_sha256": "5e969766b704139ba096c43e068626270d252e08443739b18a6b0b29162544c6",
+  "per_image_sha256": "f8117a2ec3f722fb5f3c6a31c87d212dcda69505897c4e343d10709b3a0f5065"
+}
